@@ -1,0 +1,15 @@
+<svg id="icon_header_member" xmlns="http://www.w3.org/2000/svg" width="31.502" height="35.151" viewBox="0 0 31.502 35.151">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7fc2c1;
+      }
+    </style>
+  </defs>
+  <g id="Group_49" data-name="Group 49" transform="translate(8.416)">
+    <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-1" cx="7.098" cy="7.098" r="7.098"/>
+  </g>
+  <g id="Group_50" data-name="Group 50" transform="translate(0 17.618)">
+    <path id="Path_206" data-name="Path 206" class="cls-1" d="M845.2,609.948V605.11a12.873,12.873,0,0,1,13.042-12.7h5.418a12.873,12.873,0,0,1,13.042,12.7v4.837" transform="translate(-845.2 -592.414)"/>
+  </g>
+</svg>

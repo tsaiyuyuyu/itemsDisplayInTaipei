@@ -1,0 +1,12 @@
+<svg id="icon_header_cart" xmlns="http://www.w3.org/2000/svg" width="37.404" height="36.285" viewBox="0 0 37.404 36.285">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7fc2c1;
+      }
+    </style>
+  </defs>
+  <path id="Path_203" data-name="Path 203" class="cls-1" d="M1086.726,537.873h-29.561l-.675-5.423h-7.168v2.839h4.719l3.62,24.41h24.886V556.86H1060.11l-.543-4.675,24.892-.01Z" transform="translate(-1049.322 -532.45)"/>
+  <path id="Path_204" data-name="Path 204" class="cls-1" d="M1086.246,635.241a3.549,3.549,0,0,0-3.549,3.549h0a3.549,3.549,0,1,0,7.1,0h0A3.549,3.549,0,0,0,1086.246,635.241Z" transform="translate(-1073.221 -606.055)"/>
+  <path id="Path_205" data-name="Path 205" class="cls-1" d="M1141.856,635.241a3.549,3.549,0,0,0-3.549,3.549h0a3.549,3.549,0,0,0,7.1,0h0A3.549,3.549,0,0,0,1141.856,635.241Z" transform="translate(-1113.041 -606.055)"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.99" height="106.071" viewBox="0 0 61.99 106.071">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f7f8f8;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <path id="icon_header_next" class="cls-1" d="M955.157-156.862l53.408-50.119L955.157-257.1" transform="translate(-952.42 260.016)"/>
+</svg>
