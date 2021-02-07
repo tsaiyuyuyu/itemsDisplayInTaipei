@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/cyz5ker.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/cyz5ker.css">
     <title>北漂租屋用品店</title>
     <style>
       * {
@@ -26,6 +26,7 @@
 
       h3{
           text-align: center;
+          margin: 30px 0;
       }
 
       /* 導覽列css */
@@ -66,8 +67,48 @@
       }
 
       /* products css */
+      .products{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: 50px 0;
+
+      }
+      .product-info{
+          width: 300px;
+          margin: 10px 10px 50px 10px;
+          
+      }
       .product-image{
-          width: 20%;
+          width: 100%;
+      }
+      h4{
+          padding: 0 40px;
+          margin:5px 0;
+          color: #DEE6C7;
+      }
+      .price-container{
+        padding: 0 40px;
+        margin: 0;
+        font-size: large;
+        color: #DEE6C7;
+      }
+
+      .price-line{
+        text-decoration: line-through;
+        color: #DEE6C7;
+      }
+      .sale{
+          color: #7FC2C1;
+          font-size: 20px;
+          padding-left: 5px;
+      }
+
+      .button-more{
+          font-size: 26px;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom:50px ;
       }
 
 
@@ -106,9 +147,10 @@
       </div>
     </header>
 
-    <section class="products">
+<!-- 首頁產品區 -->
+    <section>
       <h3># 籠中生存必備品</h3>
-
+    <div class="products">
       <div class="product-info">
         <div class="product-image">
           <img
@@ -116,35 +158,40 @@
             alt="火警探測器"
           />
         </div>
-        <h4>木板隔間與火災的距離之差動式火警探測器 $99</h4>
+        <h4>木板隔間與火災的距離之差動式火警探測器</h4>
+        <div class="price-container">$99</div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_lock@2x.png" alt="鐵鍊鎖頭組" />
         </div>
-        <h4>防止惡房東偷進房間之鐵鍊鎖頭組 $99 $87</h4>
+        <h4>防止惡房東偷進房間之鐵鍊鎖頭組</h4>
+        <div class="price-container"><span class="price-line">$99 </span><span class="sale">$87</span></div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_clay@2x.png" alt="補土" />
         </div>
-        <h4>自己的壁癌自己補補土 $350</h4>
+        <h4>自己的壁癌自己補補土</h4>
+        <div class="price-container">$350</div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_insecticide@2x.png" alt="殺蟲劑" />
         </div>
-        <h4>室友太多之蟲欲絕噴霧殺蟲劑 $399</h4>
+        <h4>室友太多之蟲欲絕噴霧殺蟲劑</h4>
+        <div class="price-container">$399</div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_earplugs@2x.png" alt="靜音耳塞" />
         </div>
-        <h4>再也不怕被隔壁爆雷之靜音耳塞 $49</h4>
+        <h4>再也不怕被隔壁爆雷之靜音耳塞</h4>
+        <div class="price-container">$49</div>
       </div>
 
       <div class="product-info">
@@ -154,24 +201,28 @@
             alt="濾水壺"
           />
         </div>
-        <h4>不用再偷裝公司和學校的水之濾水壺 $519</h4>
+        <h4>不用再偷裝公司和學校的水之濾水壺</h4>
+        <div class="price-container">$519</div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_poster@2x.png" alt="海報" />
         </div>
-        <h4>無窗族之窗外有藍天海報(台北夜景晚安款) $99</h4>
+        <h4>無窗族之窗外有藍天海報(台北夜景晚安款)</h4>
+        <div class="price-container">$99</div>
       </div>
 
       <div class="product-info">
         <div class="product-image">
           <img src="/img_home/img_products_book@2x.png" alt="書" />
         </div>
-        <h4>沒Wifi只能看書 | 低端人口：中國，是地下這幫鼠族撐起來的 $360</h4>
+        <h4>沒Wifi只能看書 | 低端人口：中國，是地下這幫鼠族撐起來的</h4>
+        <div class="price-container">$360</div>
       </div>
+    </div>
 
-      <button class="more">more>></button>
+      <div class="button-more">More >></div>
     </section>
 
     <section class="second-hand">
