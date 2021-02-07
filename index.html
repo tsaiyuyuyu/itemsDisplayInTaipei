@@ -19,7 +19,10 @@
         /* border: 1px solid white; */
       }
 
-      html,
+      html{
+        background-color: black;
+        margin: 0;
+      }
       body {
         background-color: #042b45;
         margin: 0;
@@ -86,6 +89,10 @@
       .product-image {
         width: 100%;
       }
+
+      .product-image > img:hover {
+        opacity: 0;
+      }
       h4 {
         padding: 0 40px;
         margin: 5px 0;
@@ -117,16 +124,15 @@
 
       /* 二手專區 css */
       .second-hand {
-        background-image: url(/img_home/bg_home_secondHand@2x.png);
+        background-image: url(./img_home/bg_home_secondHand@2x.png);
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 30px;
+        padding: 30px 5%;
       }
       .second-hand-banner {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-        max-width: 1200px;
       }
       .image-container {
         width: 46%;
@@ -138,7 +144,7 @@
       .blog-container {
         display: flex;
         margin: auto;
-        max-width: 1200px;
+        padding: 0 5%;
       }
 
       .blog-box {
@@ -159,8 +165,8 @@
 
       /* footer css */
       footer {
-        background-image: url(/img_home/bg_footer.svg);
-        padding: 70px 20px 20px 20px;
+        background-image: url(./img_home/bg_footer.svg);
+        padding: 60px 5% 30px 5%;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -184,6 +190,7 @@
       }
       .copyright {
         color: #256a85;
+        font-size: 18px;
         font-weight: 700;
       }
     </style>
@@ -193,7 +200,7 @@
     <header>
       <nav>
         <div class="nav-logo">
-          <img src="/img_home/logo_header_home.svg" alt="北漂租屋用品店logo" />
+          <img src="./img_home/logo_header_home.svg" alt="北漂租屋用品店logo" />
         </div>
         <div class="nav-menu">
           <li>最新商品</li>
@@ -204,17 +211,17 @@
         </div>
 
         <div class="icon-member">
-          <img src="/img_home/icon_header_member.svg" alt="會員icon" />
+          <img src="./img_home/icon_header_member.svg" alt="會員icon" />
         </div>
 
         <div class="icon-cart">
-          <img src="/img_home/icon_header_cart.svg" alt="購物車icon" />
+          <img src="./img_home/icon_header_cart.svg" alt="購物車icon" />
         </div>
       </nav>
       <div class="banner">
         <div class="banner-image">
           <img
-            src="/img_home/img_header_bannerV1@2x.png"
+            src="./img_home/img_header_bannerV1@2x.png"
             alt="窗外有藍天海報"
           />
         </div>
@@ -228,9 +235,17 @@
         <div class="product-info">
           <div class="product-image">
             <img
-              src="/img_home/img_products_heatDetector@2x.png"
+              src="./img_home/img_products_heatDetector@2x.png"
               alt="火警探測器"
             />
+            <a
+              href="./products.html"
+              style="
+                background-image: url(./img_home/{activeState.name}\\(
+                    Hover\State\
+                  )-1@2x.png);
+              "
+            ></a>
           </div>
           <h4>木板隔間與火災的距離之差動式火警探測器</h4>
           <div class="price-container">$99</div>
@@ -238,7 +253,7 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_lock@2x.png" alt="鐵鍊鎖頭組" />
+            <img src="./img_home/img_products_lock@2x.png" alt="鐵鍊鎖頭組" />
           </div>
           <h4>防止惡房東偷進房間之鐵鍊鎖頭組</h4>
           <div class="price-container">
@@ -248,7 +263,7 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_clay@2x.png" alt="補土" />
+            <img src="./img_home/img_products_clay@2x.png" alt="補土" />
           </div>
           <h4>自己的壁癌自己補補土</h4>
           <div class="price-container">$350</div>
@@ -256,7 +271,10 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_insecticide@2x.png" alt="殺蟲劑" />
+            <img
+              src="./img_home/img_products_insecticide@2x.png"
+              alt="殺蟲劑"
+            />
           </div>
           <h4>室友太多之蟲欲絕噴霧殺蟲劑</h4>
           <div class="price-container">$399</div>
@@ -264,7 +282,7 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_earplugs@2x.png" alt="靜音耳塞" />
+            <img src="./img_home/img_products_earplugs@2x.png" alt="靜音耳塞" />
           </div>
           <h4>再也不怕被隔壁爆雷之靜音耳塞</h4>
           <div class="price-container">$49</div>
@@ -273,7 +291,7 @@
         <div class="product-info">
           <div class="product-image">
             <img
-              src="/img_home/img_products_waterFilterPitcher@2x.png"
+              src="./img_home/img_products_waterFilterPitcher@2x.png"
               alt="濾水壺"
             />
           </div>
@@ -283,7 +301,7 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_poster@2x.png" alt="海報" />
+            <img src="./img_home/img_products_poster@2x.png" alt="海報" />
           </div>
           <h4>無窗族之窗外有藍天海報(台北夜景晚安款)</h4>
           <div class="price-container">$99</div>
@@ -291,7 +309,7 @@
 
         <div class="product-info">
           <div class="product-image">
-            <img src="/img_home/img_products_book@2x.png" alt="書" />
+            <img src="./img_home/img_products_book@2x.png" alt="書" />
           </div>
           <h4>沒Wifi只能看書 | 低端人口：中國，是地下這幫鼠族撐起來的</h4>
           <div class="price-container">$360</div>
@@ -305,13 +323,13 @@
       <div class="second-hand-banner">
         <div class="image-container">
           <img
-            src="/img_home/img_home_banner_furniture@2x.png"
+            src="./img_home/img_home_banner_furniture@2x.png"
             alt="二手家具"
           />
         </div>
         <div class="image-container">
           <img
-            src="/img_home/img_home_banner_appliances@2x.png"
+            src="./img_home/img_home_banner_appliances@2x.png"
             alt="二手電器"
           />
         </div>
@@ -326,7 +344,7 @@
         <div class="blog-box">
           <div class="blog-cover">
             <img
-              src="/img_home/img_home_blogCoverV1@2x.png"
+              src="./img_home/img_home_blogCoverV1@2x.png"
               alt="在天龍國蛋黃區從生存變生活的十種方法"
             />
           </div>
@@ -337,7 +355,7 @@
         <div class="blog-box">
           <div class="blog-cover">
             <img
-              src="/img_home/img_home_blogCoverV2@2x.png"
+              src="./img_home/img_home_blogCoverV2@2x.png"
               alt="與房東有約，15年資歷的北漂專家告訴你怎麼看房"
             />
           </div>
@@ -348,7 +366,7 @@
         <div class="blog-box">
           <div class="blog-cover">
             <img
-              src="/img_home/img_home_blogCoverV3@2x.png"
+              src="./img_home/img_home_blogCoverV3@2x.png"
               alt="破房大改造！從還願場景變成北歐簡約風"
             />
           </div>
@@ -359,26 +377,26 @@
     </section>
 
     <footer>
-      <div class="sns-container">
-        <div class="sns-icon">
-          <img src="/img_home/icon_footer_ig.svg" alt="instagram" />
+        <div class="sns-container">
+          <div class="sns-icon">
+            <img src="./img_home/icon_footer_ig.svg" alt="instagram" />
+          </div>
+          <div class="sns-icon">
+            <img src="./img_home/icon_footer_fb.svg" alt="facebook" />
+          </div>
+          <div class="sns-icon">
+            <img src="./img_home/icon_footer_line.svg" alt="line" />
+          </div>
         </div>
-        <div class="sns-icon">
-          <img src="/img_home/icon_footer_fb.svg" alt="facebook" />
+        <div class="footer-menu">
+          <li>品牌理念</li>
+          <li>聯繫我們</li>
+          <li>隱私權政策</li>
+          <li>付款方式</li>
+          <li>運送方式</li>
+          <li>退換貨方式</li>
         </div>
-        <div class="sns-icon">
-          <img src="/img_home/icon_footer_line.svg" alt="line" />
-        </div>
-      </div>
-      <div class="footer-menu">
-        <li>品牌理念</li>
-        <li>聯繫我們</li>
-        <li>隱私權政策</li>
-        <li>付款方式</li>
-        <li>運送方式</li>
-        <li>退換貨方式</li>
-      </div>
-      <div class="copyright">© 2021 北漂租屋用品店</div>
+        <div class="copyright">© 2021 北漂租屋用品店</div>
     </footer>
   </body>
 </html>
