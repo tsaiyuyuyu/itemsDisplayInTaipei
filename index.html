@@ -38,6 +38,15 @@
             margin: 40px 0;
             color: #dee6c7;
         }
+        .normal-hover:hover{
+            filter: brightness(1.25);
+           cursor: pointer;
+        }
+
+        .footer-menu>li:hover, .nav-menu>li:hover {
+            filter: brightness(1.25);
+           cursor: pointer;
+        }
 
         /* 導覽列css */
         nav {
@@ -84,10 +93,12 @@
             flex-wrap: wrap;
             justify-content: center;
             margin: 50px 0;
+            padding:0 8%;
         }
 
         .product-info {
-            width: 300px;
+            width: 20%;
+            min-width: 280px;
             margin: 10px 10px 50px 10px;
         }
 
@@ -149,7 +160,7 @@
             background-image: url(./img_home/bg_home_secondHand@2x.png);
             background-size: cover;
             background-repeat: no-repeat;
-            padding: 30px 5%;
+            padding: 30px 8%;
         }
 
         .second-hand-banner {
@@ -169,7 +180,7 @@
         .blog-container {
             display: flex;
             margin: auto;
-            padding: 0 5%;
+            padding: 0 8%;
         }
 
         .blog-box {
@@ -180,19 +191,20 @@
         h2 {
             padding: 0 20px;
             font-size: 32px;
+            margin-top: 15px;
         }
 
         h6 {
             font-size: 16px;
             padding: 0 20px;
-            margin: 0px;
+            margin-top: -15px;
             color: #256a85;
         }
 
         /* footer css */
         footer {
             background-image: url(./img_home/bg_footer.svg);
-            padding: 65px 5% 50px 5%;
+            padding: 65px 8% 50px 8%;
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -211,8 +223,8 @@
             font-weight: 700;
             font-size: 18px;
         }
-
-        .sns-icon {
+        
+        .sns-icon{
             padding: 10px 10px;
             height: 30px;
         }
@@ -239,11 +251,11 @@
                 <li>地下室</li>
             </div>
 
-            <div class="icon-member">
+            <div class="icon-member normal-hover">
                 <img src="./img_home/icon_header_member.svg" alt="會員icon" />
             </div>
 
-            <div class="icon-cart">
+            <div class="icon-cart normal-hover">
                 <img src="./img_home/icon_header_cart.svg" alt="購物車icon" />
             </div>
         </nav>
@@ -394,7 +406,7 @@
                 </a>
             </div>
         </div>
-        <div class="button-more">More >></div>
+        <div class="button-more normal-hover">More >></div>
     </section>
 
     <section class="second-hand">
@@ -441,13 +453,13 @@
 
     <footer>
         <div class="sns-container">
-            <div class="sns-icon">
+            <div class="sns-icon normal-hover">
                 <img src="./img_home/icon_footer_ig.svg" alt="instagram" />
             </div>
-            <div class="sns-icon">
+            <div class="sns-icon normal-hover">
                 <img src="./img_home/icon_footer_fb.svg" alt="facebook" />
             </div>
-            <div class="sns-icon">
+            <div class="sns-icon normal-hover">
                 <img src="./img_home/icon_footer_line.svg" alt="line" />
             </div>
         </div>
