@@ -129,13 +129,13 @@ nav {
     padding: 0 8%;
 }
 
-.product-info {
+.product-box {
     width: 20%;
     min-width: 275px;
     margin: 0 10px 50px 10px;
 }
 
-.product-image {
+.two-image {
     position: relative;
     width: 100%;
 }
@@ -149,11 +149,11 @@ nav {
     opacity: 0;
 }
 
-.product-image:hover>.product-cover {
+.two-image:hover>.product-cover {
     opacity: 0;
 }
 
-.product-image:hover>.product-hover {
+.two-image:hover>.product-hover {
     opacity: 1;
 }
 
@@ -266,4 +266,9 @@ footer {
     color: #256a85;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* 商品頁 */
+.product-image{
+    width: 50%;
 }
