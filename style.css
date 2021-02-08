@@ -126,14 +126,13 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 0;
     padding: 0 8%;
 }
 
 .product-info {
     width: 20%;
     min-width: 275px;
-    margin: 10px 10px 50px 10px;
+    margin: 0 10px 50px 10px;
 }
 
 .product-image {
