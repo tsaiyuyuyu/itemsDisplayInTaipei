@@ -114,10 +114,10 @@ h3 {
   justify-content: center;
 }
 .banner-content>img{
-  width: 900px;
-  height: 600px;
+  width: 60%;
+  /* height: 600px; */
 }
-.banner-content>img:nth-child(odd){
+.banner-content img:nth-child(odd){
  opacity: 0.5;
 }
 .sliders {
@@ -135,19 +135,19 @@ h3 {
 }
 .arrow-left,
 .arrow-right {
-  opacity: 0.7;
+  opacity: 0.8;
   height: 50px;
   background-color: #256a85;
 }
 
 .arrow-right {
   position: absolute;
-  right: 0;
+  right: 20%;
   top: 45%;
 }
 .arrow-left {
   position: absolute;
-  left: 0;
+  left: 20%;
   top: 45%;
 }
 
@@ -301,6 +301,7 @@ article{
 .graphic-novel {
   width: 50%;
   min-width: 400px;
+  margin-bottom: 20px;
 }
 h1 {
   color: #dee6c7;
@@ -370,8 +371,9 @@ button:active{
 }
 
 .border-line{
-    border-top: 3px solid #256A85;
+    border-top: 4px solid #256A85;
     width: 50%;
     padding: 30px 0px;
+    margin-top: 40px;
 }
 
