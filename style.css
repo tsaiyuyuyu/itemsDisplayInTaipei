@@ -107,10 +107,18 @@ h3 {
   cursor: pointer;
 }
 .banner-content {
-  width: 900px;
-  height: 600px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.banner-content>img{
+  width: 900px;
+  height: 600px;
+}
+.banner-content>img:nth-child(odd){
+ opacity: 0.5;
 }
 .sliders {
   position: absolute;
