@@ -230,6 +230,7 @@ h2 {
   padding: 0 20px;
   font-size: 32px;
   margin-top: 15px;
+  /* text-align: justify; */
 }
 
 h6 {
@@ -324,19 +325,25 @@ h1 {
 .counter {
   display: flex;
   font-size: 18px;
+  border: 1px solid #7fc2c1;
 }
-.counter div {
-  padding: 3px 10px;
-  border: 2px solid #7fc2c1;
+.counter input {
+  padding: 6px 10px;
+  border: 1px solid #7fc2c1;
+  background-color:#042B45 ;
+  outline: none;
 }
 .counter-text {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
 }
-.number {
-  width: 40px;
+#count {
+  width: 30px;
   text-align: center;
+}
+#plus,#minus{
+    cursor: pointer;
 }
 button {
   font-size: 24px;
@@ -356,8 +363,7 @@ button:active{
 
 .border-line{
     border-top: 3px solid #256A85;
-    width: 45%;
+    width: 50%;
     padding: 30px 0px;
-    margin-left:40px;
 }
 

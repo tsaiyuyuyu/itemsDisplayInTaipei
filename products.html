@@ -57,9 +57,9 @@
                 <div class="shop-item">
                     <div class="counter-text">數量</div>
                     <div class="counter">
-                        <div class="minus normal-hover">–</div>
-                        <div class="number">0</div>
-                        <div class="plus normal-hover">+</div>
+                        <input type="button" value="-" id="minus" onclick="minus()">
+                        <input type="text" value="1" id="count">
+                        <input type="button" value="+" id="plus" onclick="plus()">
                     </div>
                     <button class="normal-hover">Add to Cart</button>
                 </div>
@@ -84,7 +84,6 @@
         </div>
 
     </section>
-
 
     <section>
         <div class="container">
@@ -161,6 +160,8 @@
         </div>
     </section>
 
+    <div style="height:70px ;"></div>
+
     <footer>
         <div class="container inline-center">
             <div class="sns-container">
@@ -185,6 +186,8 @@
             <div class="copyright">© 2021 北漂租屋用品店</div>
         </div>
     </footer>
+    <script type="text/javascript" src="./text.js"></script>
+ 
 </body>
 
 </html>
