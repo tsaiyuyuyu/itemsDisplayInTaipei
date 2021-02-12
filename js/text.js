@@ -45,32 +45,40 @@ $('.banner').slick({
     ]
 });
 
-// banner
-// var indaxValue = 1;
-//         showImg(indexValue);
-//         function dot_slide(e) {
-//             showImg((indaxValue = e));
-//         }
-//         function side_slide(e) {
-//             showImg((indaxValue += e));
-//         }
-//         function showImg(e) {
-//             var i;
-//             const img = document.querySelectorAll('.banner-content>img');
-//             const sliders = document.querySelectorAll('.dot');
-//             if (e > img.length) {
-//                 indaxValue = 1;
-//             }
-//             if (e < 1) {
-//                 indaxValue = img.length;
-//             }
-//             for (i = 0; i < img.length; i++) {
-//                 img[i].style.display = "none";
-//             }
-//             for (i = 0; i < sliders.length; i++) {
-//                 sliders[i].style.color = "red";
-//             }
-//             img[indaxValue - 1].style.display = "block";
-//             sliders[indaxValue - 1].style.color = "white";
-//         }
+// 部落格手機滑動
 
+$('.multiple-items').slick({
+    infinite: true,
+    // centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        }
+    ]
+  });
