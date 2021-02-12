@@ -216,7 +216,7 @@ h4 {
 
 /* 二手專區 css */
 .second-hand {
-  background-image: url(./img_home/bg_home_secondHand@2x.png);
+  background-image: url(./img/bg_home_secondHand@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 0;
@@ -252,7 +252,7 @@ h6 {
 
 /* footer css */
 footer {
-  background-image: url(./img_home/bg_footer.svg);
+  background-image: url(./img/bg_footer.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0 30px 0;
