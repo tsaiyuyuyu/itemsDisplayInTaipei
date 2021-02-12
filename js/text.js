@@ -12,6 +12,39 @@ function minus() {
     }
 }
 
+// 首頁banner輪播
+$('.banner').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerPadding: '18%',
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '30px',
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '30px',
+                slidesToShow: 1
+            }
+        }
+
+    ]
+});
+
 // banner
 // var indaxValue = 1;
 //         showImg(indexValue);
@@ -40,3 +73,4 @@ function minus() {
 //             img[indaxValue - 1].style.display = "block";
 //             sliders[indaxValue - 1].style.color = "white";
 //         }
+

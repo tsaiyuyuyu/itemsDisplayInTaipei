@@ -140,6 +140,7 @@ h3 {
   width: 21%;
   min-width: 258px;
   padding: 0 20px;
+  margin-bottom: 50px;
 }
 
 .two-image {
@@ -341,7 +342,7 @@ h1 {
   font-size: 24px;
   color: #dee6c7;
   background-color: #747222;
-  padding: 10px 60px;
+  padding: 12px 60px;
   position: absolute;
   right: 0;
   outline: none;
