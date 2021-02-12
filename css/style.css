@@ -23,7 +23,6 @@ img {
 }
 .container {
   max-width: 1920px;
-  /* margin: 0 8%; */
   padding: 0 8%;
   margin: auto;
 }
@@ -97,32 +96,14 @@ h3 {
   height: 25px;
 }
 
+
 /* banner css */
-/* .banner-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-} */
-/* .banner{
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-} */
+
 .banner{
   margin: auto;
 }
-/* .banner>img{
-  width: 70%;
-} */
-/* .banner img:nth-child(odd){
- opacity: 0.5;
-} */
-.sliders {
+
+/* .sliders {
   position: absolute;
   bottom: 20px;
   display: flex;
@@ -151,7 +132,7 @@ h3 {
   position: absolute;
   left: 20%;
   top: 45%;
-}
+} */
 
 /* products css */
 
