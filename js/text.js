@@ -49,7 +49,7 @@ $('.banner').slick({
 
 $('.multiple-items').slick({
     infinite: true,
-    // centerMode: true,
+    centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
