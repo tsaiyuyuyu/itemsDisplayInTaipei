@@ -37,7 +37,7 @@ $('.banner').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '30px',
+                centerPadding: '0',
                 slidesToShow: 1
             }
         }
