@@ -122,6 +122,7 @@ h3 {
   .menu ul{
    padding: 0;
    font-size: 18px;
+   text-align: center;
   }
   .topnav.responsive{
     display: block;
