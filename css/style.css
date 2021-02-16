@@ -1,92 +1,6 @@
-/* 手機橫式 */
-@media (max-width: 767px) {
-}
 
-/* 手機直式 */
-@media (max-width: 480px) {
-  .column {
-    flex-direction: column;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  .container {
-    padding: 0;
-  }
-  .nav-bar {
-    position: relative;
-    padding: 10px 5px;
-  }
 
-  .nav-menu {
-    display: none;
-  }
-  .member {
-    position: absolute;
-    right: 35px;
-    top: 10px;
-    height: 20px;
-  }
-  .cart {
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    height: 20px;
-  }
 
-}
-
-/* 平板直式 */
-@media (min-width: 768px) and (max-width: 979px) {
-  .nav-menu {
-    display: none;
-  }
-}
-
-/* 平板橫式 */
-@media (min-width: 980px) {
-  
-}
-
-/* 電腦 */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1920px;
-    padding: 0 8%;
-    margin: auto;
-  }
-  .nav-menu > li {
-    font-size: 24px;
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 33px;
-    text-align: right;
-  }
-  .nav-bar {
-    padding: 20px 5px;
-  }
-
-  .member {
-    position: absolute;
-    right: 65px;
-    top: 20px;
-    height: 30px;
-  }
-  
-  .cart {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    height: 30px;
-  }
-  .icon-shop img {
-    width: 100%;
-    height: 100%;
-  }
-
-}
-
-/* all */
 * {
   color: #7fc2c1;
   font-family: maple-web, Noto Sans TC, sans-serif, 微軟正黑體;
@@ -110,6 +24,11 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+.container {
+  max-width: 1920px;
+  padding: 0 8%;
+  margin: auto;
 }
 
 .inline {
@@ -138,7 +57,7 @@ h3 {
 }
 
 .footer-menu > li:hover,
-.nav-menu > li:hover {
+.menu > li:hover {
   filter: brightness(1.25);
   cursor: pointer;
 }
@@ -150,12 +69,93 @@ h3 {
   background-color: #042b45;
   z-index: 10;
 }
-
-.nav-logo {
-  width: 50%;
-  max-width: 270px;
+.topnav{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.logo {
+  width: 50%;
+  max-width: 280px;
+  margin: 15px 0;
+}
+.hamburger div{
+  height: 3px;
+  width: 25px;
+  background-color:#7fc2c1;
+  margin: 4px 0;
+}
+.hamburger{
+  display: none;
+}
+
+.menu ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  background-color: #042b45;
+}
+.menu ul li{
+  padding:10px;
+}
+@media screen and (max-width:600px){
+  .topnav{
+    position: relative;
+  }
+  .topnav .menu{
+    display: none;
+  }
+  .logo{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hamburger{
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .menu ul{
+   padding: 0;
+   font-size: 18px;
+  }
+  .topnav.responsive{
+    display: block;
+    position: relative;
+  }
+  .topnav.responsive .hamburger{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .topnav.responsive .menu{
+    display: block;
+  }
+  .topnav.responsive .menu ul{
+    display: block;
+  }
+}
+.member {
+  position: absolute;
+  right: 65px;
+  top: 20px;
+  height: 30px;
+}
+
+.cart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 30px;
+}
+.icon-shop img {
+  width: 100%;
+  height: 100%;
+}
 
 /* banner css */
 
@@ -390,4 +390,44 @@ h1 {
   width: 50%;
   padding: 30px 0px;
   margin-top: 60px;
+}
+
+/* 手機直式 */
+@media screen and (max-width: 480px) {
+  .column {
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .container {
+    padding: 0;
+  }
+ 
+  .member {
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    height: 20px;
+  }
+  .cart {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    height: 20px;
+  }
+
+}
+/* 手機橫式 */
+@media (max-width: 767px) {
+}
+
+/* 平板直式 */
+@media (min-width: 768px) and (max-width: 979px) {
+ 
+}
+
+/* 平板橫式 */
+@media (min-width: 980px) {
+  
 }
