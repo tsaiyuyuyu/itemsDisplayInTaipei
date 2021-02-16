@@ -136,7 +136,7 @@ nav{
     position: absolute;
     top:0px;
     right:0px;  
-    padding: 0;
+    padding:0;
   }
   .icon-shop div{
     width:35px;
@@ -167,10 +167,10 @@ nav{
     border-top: 2px solid #256a85; 
   }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
   .icon-shop{
     position: absolute;
-    top:-3px; 
+    top:-2px; 
     padding: 0;
   }
   .icon-shop div{
