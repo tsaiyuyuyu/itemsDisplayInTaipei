@@ -5,6 +5,7 @@
   font-style: normal;
   text-decoration: none;
   outline: none;
+  box-sizing: border-box;
   /* border: 1px solid white; */
 }
 
@@ -207,10 +208,17 @@ h3 {
 #s1 {
   margin-top: 50px;
 }
+.row{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.column{
+  width: 25%;
+}
 .product-box {
-  width: 21%;
-  min-width: 258px;
-  padding: 0 20px;
+  padding: 0 2%;
   margin-bottom: 50px;
 }
 
@@ -237,13 +245,13 @@ h3 {
 }
 
 h4 {
-  padding: 0 20px;
+  padding: 0 4%;
   margin: 5px 0;
   color: #dee6c7;
 }
 
 .price-container {
-  padding: 0 20px;
+  padding: 0 4%;
   margin: 0;
   color: #dee6c7;
 }
@@ -430,7 +438,7 @@ h1 {
 
 /* 手機直式 */
 @media screen and (max-width: 480px) {
-  .column {
+  .bn-column {
     flex-direction: column;
   }
   h2 {
@@ -439,15 +447,23 @@ h1 {
   .container {
     padding: 0px;
   }
+  .column{
+    width: 50%;
+  }
 }
 /* 手機橫式 */
 @media (max-width: 767px) {
+  .column{
+    width: 50%;
+  }
 }
 
 /* 平板直式 */
 @media (min-width: 768px) and (max-width: 979px) {
+ 
 }
 
 /* 平板橫式 */
 @media (min-width: 980px) {
+
 }
