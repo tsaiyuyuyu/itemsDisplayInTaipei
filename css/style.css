@@ -70,39 +70,40 @@ h3 {
   z-index: 10;
 }
 nav{
-  position: relative;
+  padding: 10px;
 }
 .topnav{
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
   width: 50%;
   max-width: 280px;
-  margin: 15px 0;
 }
 .hamburger div{
   height: 3px;
   width: 25px;
   background-color:#7fc2c1;
-  margin: 6px 0;
+  margin-bottom: 5px;
 }
 .hamburger{
   display: none;
 }
 .icon-shop {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0px;
+  right: 0px;
   display: flex;
-
+  padding: 10px;
 }
 .icon-shop div{
   width:40px;
   height:40px;  
+  padding-left:2% ;
 }
 
 .menu ul {
@@ -124,28 +125,27 @@ nav{
   }
   .logo{
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
   .hamburger{
     display: block;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
   }
   .icon-shop{
-    top:5px;
-    right: 5px;  
+    position: absolute;
+    top:0px;
+    right:0px;  
+    padding: 0;
   }
   .icon-shop div{
-    width:40px;
-    height:40px;  
+    width:35px;
+    height:35px;  
   }
   .menu ul{
    padding: 0;
    font-size: 18px;
    text-align: center;
-   margin-bottom: 10px;
   }
   .topnav.responsive{
     display: block;
@@ -153,14 +153,29 @@ nav{
   }
   .topnav.responsive .hamburger{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
   }
   .topnav.responsive .menu{
     display: block;
+    margin-top: 10px;
   }
   .topnav.responsive .menu ul{
     display: block;
+  }
+  .topnav.responsive .menu ul li{
+    border-top: 2px solid #256a85; 
+  }
+}
+@media screen and (max-width:400px){
+  .icon-shop{
+    position: absolute;
+    top:-3px; 
+    padding: 0;
+  }
+  .icon-shop div{
+    width:25px;
+    height:25px;  
   }
 }
 
