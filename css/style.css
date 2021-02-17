@@ -66,7 +66,7 @@ h3 {
   width: 100%;
   background-color: #042b45;
   z-index: 10;
-  top:0;
+  top: 0;
   right: 0;
 }
 
@@ -116,7 +116,7 @@ h3 {
   background-color: #042b45;
 }
 .menu ul li {
-  padding:10px;
+  padding: 10px;
 }
 @media screen and (max-width: 1200px) {
   .topnav {
@@ -205,16 +205,16 @@ h3 {
 
 /* products css */
 
-#s1 {
+#homeProduct {
   margin-top: 50px;
 }
-.row{
+#homeProduct .row, #needProduct .row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.column{
+#homeProduct .column, #needProduct .column {
   width: 25%;
 }
 .product-box {
@@ -283,9 +283,16 @@ h4 {
   padding: 80px 0;
 }
 
+#secondHand .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#secondHand .column {
+  width: 50%;
+}
 .second-hand-image-box {
-  flex: 1;
-  padding: 10px 20px;
+  padding: 10px 2%;
 }
 
 /* 部落格 css */
@@ -359,7 +366,6 @@ article {
 }
 .graphic-novel {
   width: 50%;
-  min-width: 400px;
   margin-bottom: 20px;
 }
 h1 {
@@ -436,37 +442,44 @@ h1 {
   margin-top: 60px;
 }
 
-/* 手機直式 */
-@media screen and (max-width: 480px) {
-  .bn-column {
-    flex-direction: column;
-  }
+/* 手機直式、橫式 */
+@media screen and (max-width: 480px) and (max-width: 767px) {
+
   h2 {
     font-size: 18px;
   }
   .container {
-    padding: 0px;
+    padding: 0;
   }
-  .column{
+  #homeProduct .column,  #needProduct .column {
     width: 50%;
   }
-  .product-image,.product-info-box,.graphic-novel{
+  #secondHand .column {
     width: 100%;
   }
-}
-/* 手機橫式 */
-@media (max-width: 767px) {
-  .column{
-    width: 50%;
+  .second-hand-image-box {
+    padding: 10px 5%;
+  }
+  .graphic-novel {
+    width: 100%;
+    padding: 0 2%;
   }
 }
 
 /* 平板直式 */
-@media (min-width: 768px) and (max-width: 979px) {
- 
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .container {
+    padding: 0 3%;
+  }
+  #homeProduct .column,  #needProduct .column {
+    width: 50%;
+  }
+  .graphic-novel {
+    width: 100%;
+  }
 }
 
 /* 平板橫式 */
-@media (min-width: 980px) {
-
+@media screen and (min-width: 980px) {
+ 
 }

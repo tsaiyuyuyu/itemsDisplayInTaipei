@@ -48,29 +48,32 @@
 
         <div class="banner">
             <div><a href="">
-                <picture>
-                    <source media="(min-width: 480px)" srcset="./img/img_header_bannerV2@2x.png" /><img
-                        src="./img/img_header_bannerV2.png" alt="殺蟲劑" />
-                </picture></a>
+                    <picture>
+                        <source media="(min-width: 480px)" srcset="./img/img_header_bannerV2@2x.png" /><img
+                            src="./img/img_header_bannerV2.png" alt="殺蟲劑" />
+                    </picture>
+                </a>
             </div>
             <div><a href="">
-                <picture>
-                    <source media="(min-width: 480px)" srcset="./img/img_header_bannerV1@2x.png" /><img
-                        src="./img/img_header_bannerV1.png" alt="窗外有藍天海報" />
-                </picture></a>
+                    <picture>
+                        <source media="(min-width: 480px)" srcset="./img/img_header_bannerV1@2x.png" /><img
+                            src="./img/img_header_bannerV1.png" alt="窗外有藍天海報" />
+                    </picture>
+                </a>
             </div>
             <div><a href="">
-                <picture>
-                    <source media="(min-width: 480px)" srcset="./img/img_header_bannerV3@2x.png" /><img
-                        src="./img/img_header_bannerV3.png" alt="3hr出貨" />
-                </picture></a>
+                    <picture>
+                        <source media="(min-width: 480px)" srcset="./img/img_header_bannerV3@2x.png" /><img
+                            src="./img/img_header_bannerV3.png" alt="3hr出貨" />
+                    </picture>
+                </a>
             </div>
 
         </div>
     </header>
 
     <!-- 首頁產品區 -->
-    <section id="s1">
+    <section id="homeProduct">
         <h3 class="normal-hover"># 籠中生存必備品</h3>
         <div class="container">
             <div class="row">
@@ -218,16 +221,22 @@
 
     <!-- 二手專區 -->
 
-    <section class="second-hand">
-        <div class="container inline bn-column">
-            <picture class="second-hand-image-box normal-hover">
-                <source media="(max-width: 600px)" srcset="./img/img_home_banner__furniture_mb.png" />
-                <img src="./img/img_home_banner_furniture@2x.png" alt="二手家具" />
-            </picture>
-            <picture class="second-hand-image-box normal-hover">
-                <source media="(max-width:600px )" srcset="./img/img_home_banner__appliances_mb.png">
-                <img src="./img/img_home_banner_appliances@2x.png" alt="二手電器" />
-            </picture>
+    <section class="second-hand" id="secondHand">
+        <div class="container">
+            <div class="row">
+                <div class="column second-hand-image-box normal-hover">
+                    <picture>
+                        <source media="(max-width: 979px)" srcset="./img/img_home_banner_furniture_mb.png" />
+                        <img src="./img/img_home_banner_furniture@2x.png" alt="二手家具" />
+                    </picture>
+                </div>
+                <div class="column second-hand-image-box normal-hover">
+                    <picture>
+                        <source media="(max-width: 979px)" srcset="./img/img_home_banner_appliances_mb.png">
+                        <img src="./img/img_home_banner_appliances@2x.png" alt="二手電器" />
+                    </picture>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -235,7 +244,7 @@
 
     <section class="blog">
         <h3 class="normal-hover"># 北漂小撇步</h3>
-        <div class="container inline multiple-items" id="blog">
+        <div class="container multiple-items" id="blog">
             <div class="blog-box normal-hover">
                 <div class="blog-cover">
                     <img src="./img/img_home_blogCoverV1@2x.png" alt="在天龍國蛋黃區從生存變生活的十種方法" />
