@@ -453,7 +453,7 @@ h1 {
 /* 手機直式、橫式 */
 @media screen and (max-width: 976px) {
   .container:not(#blog, #myTopnav) {
-    padding: 0 2%;
+    padding: 0 1%;
   }
   /* .container滿版  */
   #blog,
@@ -474,13 +474,11 @@ h1 {
     font-size: 16px;
   }
   .chapter {
-    padding-right: 0;
-    padding-left: 1%;
+    padding: 0 1%;
   }
   
   .price-container {
-    padding-right: 0;
-    padding-left: 1%;
+    padding: 0 1%;
   }
   .button-more {
     margin: 20px auto;
