@@ -1,6 +1,6 @@
 * {
   color: #7fc2c1;
-  font-family: maple-web, Noto Sans TC, sans-serif, 微軟正黑體;
+  font-family: maple-web, source-han-sans-traditional, sans-serif, 微軟正黑體;
   font-weight: 500;
   font-style: normal;
   text-decoration: none;
@@ -457,6 +457,10 @@ h1 {
   }
   .second-hand-image-box {
     padding: 10px 5%;
+  }
+  h6 {
+    font-size: 14px;
+    margin-top: -5px;
   }
   .graphic-novel {
     width: 100%;
