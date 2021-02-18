@@ -473,6 +473,15 @@ h1 {
   .hashtag, .chapter{
     font-size: 16px;
   }
+  .chapter {
+    padding-right: 0;
+    padding-left: 1%;
+  }
+  
+  .price-container {
+    padding-right: 0;
+    padding-left: 1%;
+  }
   .button-more {
     margin: 20px auto;
   }
