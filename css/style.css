@@ -452,12 +452,13 @@ h1 {
 
 /* 手機直式、橫式 */
 @media screen and (max-width: 976px) {
-  .container:not(#blog, #myTopnav) {
-    padding: 0 1%;
+  .container:not(#blog, #myTopnav, #homeProduct) {
+    padding: 0 2%;
   }
   /* .container滿版  */
   #blog,
-  .container #myTopnav {
+  .container #myTopnav,
+  #homeProduct {
     padding: 0;
   }
   #homeProduct .column,
@@ -470,16 +471,16 @@ h1 {
   .graphic-novel {
     width: 100%;
   }
-  .hashtag, .chapter{
+  .hashtag,
+  .chapter {
     font-size: 16px;
   }
-  .chapter {
-    padding: 0 1%;
+  .chapter,
+  .price-container,
+  .info-box {
+    padding: 0 2%;
   }
-  
-  .price-container {
-    padding: 0 1%;
-  }
+
   .button-more {
     margin: 20px auto;
   }
@@ -513,9 +514,6 @@ h1 {
   }
   article {
     margin-top: 0px;
-  }
-  .info-box {
-    padding: 0 2%;
   }
   .border-line {
     width: 100%;
