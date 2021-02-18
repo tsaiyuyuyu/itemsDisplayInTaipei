@@ -197,18 +197,20 @@ h3 {
   cursor: pointer;
 }
 
-/* products css */
+/* homeProducts css */
 
 #homeProduct {
   margin-top: 50px;
 }
-#homeProduct .row, #needProduct .row {
+#homeProduct .row,
+#needProduct .row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#homeProduct .column, #needProduct .column {
+#homeProduct .column,
+#needProduct .column {
   width: 25%;
 }
 .product-box {
@@ -295,17 +297,15 @@ h4 {
   width: 33%;
 }
 
-h2 {
+.blog-title {
   padding: 0 20px;
   font-size: 32px;
-  margin-top: 15px;
-  /* text-align: justify; */
+  margin: 15px 0;
 }
 
-h6 {
+.date {
   font-size: 16px;
   padding: 0 20px;
-  margin-top: -15px;
   color: #256a85;
 }
 
@@ -314,29 +314,31 @@ footer {
   background-image: url(../img/bg_footer.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 0 30px 0;
+  padding: 55px 0 30px 0;
+  margin-top: 50px;
 }
-footer >.row{
+footer > .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.icon-sns{
+.icon-sns {
   display: flex;
   padding: 10px;
 }
-.icon-sns div{
+.icon-sns div {
   width: 40px;
   margin-right: 10px;
 }
-footer .footer-menu,footer .footer-menu .row{
+footer .footer-menu,
+footer .footer-menu .row {
   display: flex;
   padding: 0 2px;
   margin: 10px 0;
 }
 .footer-menu li {
   list-style-type: none;
-  padding:2px 10px;
+  padding: 2px 10px;
   color: #256a85;
   font-weight: 700;
   font-size: 18px;
@@ -352,16 +354,17 @@ footer .footer-menu,footer .footer-menu .row{
 /* 商品頁 */
 article {
   padding-top: 80px;
-  width: 100%;
 }
-.product-image {
+#productInfo .row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 2%;
+  align-items: flex-start;
+}
+#productInfo .row .column{
   width: 50%;
 }
 
-.product-info-box {
-  width: 50%;
-  padding: 50px 5px;
-}
 .graphic-novel {
   width: 50%;
   margin-bottom: 20px;
@@ -377,34 +380,34 @@ h1 {
   color: #dee6c7;
   text-decoration: line-through;
 }
-.big-font {
+.sale-big {
   font-size: 42px;
   font-weight: 700;
 }
-.info-text {
+.product-description {
   margin-bottom: 50px;
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
   font-weight: 400;
 }
-.shop-item {
+.counter {
   display: flex;
   align-items: center;
   position: relative;
 }
-.counter {
+.counter-select {
   display: flex;
   font-size: 18px;
   border: 1px solid #7fc2c1;
 }
-.counter input {
+.counter .counter-select input {
   padding: 6px 10px;
   border: 1px solid #7fc2c1;
   background-color: #042b45;
   outline: none;
 }
-.counter-text {
+.counter label {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -441,49 +444,51 @@ h1 {
 }
 
 /* 手機直式、橫式 */
-@media screen and (max-width: 480px) and (max-width: 767px) {
-
-  h2 {
-    font-size: 18px;
+@media screen and (max-width: 976px) {
+  .container:not(#blog, #myTopnav) {
+    padding: 0 3%;
   }
-  .container {
+   /* .container滿版  */
+  #blog, .container #myTopnav{
     padding: 0;
   }
-  #homeProduct .column,  #needProduct .column {
+  #homeProduct .column,
+  #needProduct .column {
     width: 50%;
   }
-  #secondHand .column {
+  #secondHand .column,
+  #productInfo .row .column,
+  footer > .row > .column,
+  .graphic-novel{
     width: 100%;
   }
   .second-hand-image-box {
     padding: 10px 5%;
   }
-  h6 {
+  .blog-title {
+    font-size: 18px;
+  }
+  .date {
     font-size: 14px;
-    margin-top: -5px;
-  }
-  .graphic-novel {
-    width: 100%;
-    padding: 0 2%;
-  }
-  footer .container{
-    padding:0 2%;
-  }
-  footer >.row{
-    display: block;
-  }
-  footer > .row > .column{
-  width: 100%;
   }
 
-  footer .footer-menu{
+  footer .container {
+    padding: 0 2%;
+  }
+  footer > .row {
+    display: block;
+  }
+
+  footer .footer-menu {
     display: inline;
     padding: 0;
   }
-  footer .footer-menu .row{
-   justify-content: space-between;
+  footer .footer-menu .row {
+    justify-content: space-between;
   }
-  
+  .border-line{
+    width: 100%;
+  }
 }
 
 /* 平板直式 */
@@ -491,32 +496,27 @@ h1 {
   .container {
     padding: 0 3%;
   }
-  #homeProduct .column,  #needProduct .column {
+  #homeProduct .column,
+  #needProduct .column {
     width: 50%;
   }
-  .graphic-novel {
+  .graphic-novel,
+  footer > .row > .column {
     width: 100%;
   }
-  footer .container{
-    padding:0 2%;
-  }
-  footer >.row{
+
+  footer > .row {
     display: block;
   }
-  footer > .row > .column{
-  width: 100%;
-  }
-
-  footer .footer-menu{
+  footer .footer-menu {
     display: inline;
     padding: 0;
   }
-  footer .footer-menu .row{
-   justify-content: space-between;
+  footer .footer-menu .row {
+    justify-content: space-between;
   }
 }
 
 /* 平板橫式 */
 @media screen and (min-width: 980px) {
- 
 }
