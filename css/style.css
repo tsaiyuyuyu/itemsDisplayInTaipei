@@ -425,7 +425,7 @@ article {
 /* 手機直式、橫式 */
 @media screen and (max-width: 767px) {
   .container:not(#blog, #myTopnav, #homeProduct) {
-    padding: 0 2%;
+    padding: 0 1%;
   }
   /* .container滿版  */
   #blog,
