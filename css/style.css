@@ -375,7 +375,7 @@ article {
   width: 50%;
   margin-bottom: 20px;
 }
-h1 {
+.title {
   color: #dee6c7;
   font-size: 36px;
   font-weight: 700;
@@ -473,19 +473,14 @@ h1 {
   }
   .hashtag,
   .chapter {
-    font-size: 16px;
+    font-size: 15.5px;
   }
   .chapter,
-  .price-container,
-  .info-box {
+  .price-container{
     padding: 0 2%;
   }
-
   .button-more {
     margin: 20px auto;
-  }
-  .second-hand-image-box {
-    padding: 10px 5%;
   }
   .blog-box {
     padding: 10px;
@@ -515,12 +510,35 @@ h1 {
   article {
     margin-top: 0px;
   }
+  .info-box {
+    padding: 0;
+  }
+  .product-description{
+    margin-bottom: 15px;
+  }
+  .title{
+    font-size: 28px;
+  }
+  .price-container-big {
+    font-size: 20px;
+  }
+  .sale-big{
+    font-size: 32px;
+  }
+  .product-description{
+    font-size: 15.5px;
+  }
+  .counter label{
+    font-size: 12px;
+    margin-right: 5px;
+  }
   .border-line {
     width: 100%;
   }
   .button-cart {
-    font-size: 20px;
+    font-size: 16px;
   }
+ 
 }
 
 /* 平板直式 */
