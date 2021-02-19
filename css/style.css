@@ -18,7 +18,6 @@ body {
   background-color: #042b45;
   margin: 0;
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -33,26 +32,16 @@ img {
   padding: 0 5%;
   margin: auto;
 }
-
-.inline {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .hashtag {
   width: 160px;
   margin: 40px auto;
   color: #dee6c7;
   text-align: center;
 }
-
 .normal-hover:hover {
   filter: brightness(1.15);
   cursor: pointer;
 }
-
 .footer-menu > li:hover,
 .menu ul li:hover {
   filter: brightness(1.25);
@@ -68,7 +57,6 @@ img {
   top: 0;
   right: 0;
 }
-
 .topnav {
   overflow: hidden;
   display: flex;
@@ -76,7 +64,6 @@ img {
   justify-content: space-between;
   position: relative;
 }
-
 .logo {
   width: 280px;
 }
@@ -221,12 +208,10 @@ img {
   padding: 0 2%;
   margin-bottom: 50px;
 }
-
 .two-image {
   position: relative;
   width: 100%;
 }
-
 .product-hover {
   position: absolute;
   top: 0;
@@ -235,39 +220,32 @@ img {
   z-index: 1;
   opacity: 0;
 }
-
 .two-image:hover > .product-cover {
   opacity: 0;
 }
-
 .two-image:hover > .product-hover {
   opacity: 1;
 }
-
 .chapter {
   padding: 0 4%;
   margin: 5px 0;
   color: #dee6c7;
   font-size: 18px;
 }
-
 .price-container {
   padding: 0 4%;
   margin: 0;
   color: #dee6c7;
 }
-
 .price-line {
   text-decoration: line-through;
   color: #dee6c7;
 }
-
 .sale {
   color: #7fc2c1;
   font-size: 24px;
   padding-left: 5px;
 }
-
 .button-more {
   width: 160px;
   margin: 60px auto;
@@ -283,7 +261,6 @@ img {
   background-repeat: no-repeat;
   padding: 80px 0;
 }
-
 #secondHand .row {
   display: flex;
   justify-content: space-between;
@@ -300,13 +277,11 @@ img {
 .blog-box {
   padding: 10px 2%;
 }
-
 .blog-title {
   padding: 0 10px;
   font-size: 32px;
   margin: 15px 0;
 }
-
 .date {
   font-size: 16px;
   padding: 0 10px;
@@ -347,7 +322,6 @@ footer .footer-menu .row {
   font-weight: 700;
   font-size: 18px;
 }
-
 .copyright {
   color: #256a85;
   font-size: 18px;
@@ -437,12 +411,10 @@ article {
   position: absolute;
   right: 0;
 }
-
 .button-cart:active {
   border: 2px solid #747222;
   background-color: #042b45;
 }
-
 .border-line {
   border-top: 4px solid #256a85;
   width: 50%;
@@ -476,7 +448,7 @@ article {
     font-size: 15.5px;
   }
   .chapter,
-  .price-container{
+  .price-container {
     padding: 0 2%;
   }
   .button-more {
@@ -513,22 +485,22 @@ article {
   .info-box {
     padding: 0;
   }
-  .product-description{
+  .product-description {
     margin-bottom: 15px;
   }
-  .title{
+  .title {
     font-size: 28px;
   }
   .price-container-big {
     font-size: 20px;
   }
-  .sale-big{
+  .sale-big {
     font-size: 32px;
   }
-  .product-description{
+  .product-description {
     font-size: 15.5px;
   }
-  .counter label{
+  .counter label {
     font-size: 12px;
     margin-right: 5px;
   }
@@ -538,7 +510,6 @@ article {
   .button-cart {
     font-size: 16px;
   }
- 
 }
 
 /* 平板直式 */
@@ -554,7 +525,6 @@ article {
   footer > .row > .column {
     width: 100%;
   }
-
   footer > .row {
     display: block;
   }
