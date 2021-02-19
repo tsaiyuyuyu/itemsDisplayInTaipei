@@ -445,7 +445,7 @@ article {
   }
   .hashtag,
   .chapter {
-    font-size: 15.5px;
+    font-size: 15px;
   }
   .chapter,
   .price-container {
@@ -461,7 +461,7 @@ article {
     font-size: 24px;
   }
   .date {
-    font-size: 14px;
+    font-size: 13px;
   }
   footer .container {
     padding: 0 2%;
