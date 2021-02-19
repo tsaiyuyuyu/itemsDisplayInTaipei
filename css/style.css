@@ -515,7 +515,10 @@ article {
 /* 平板直式 */
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .container {
-    padding: 0 3%;
+    padding: 0 2%;
+  }
+  #blog{
+    padding: 0;
   }
   #homeProduct .column,
   #needProduct .column {
