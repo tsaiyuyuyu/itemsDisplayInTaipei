@@ -514,11 +514,17 @@ article {
 
 /* 平板直式 */
 @media screen and (min-width: 768px) and (max-width: 979px) {
-  .container {
+  .container:not(#blog) {
     padding: 0 2%;
   }
   #blog{
     padding: 0;
+  }
+  .logo {
+    width: 240px;
+  }
+  .blog-box {
+    padding: 10px 20px;
   }
   #homeProduct .column,
   #needProduct .column {
@@ -541,11 +547,14 @@ article {
 }
 
 /* 平板橫式 */
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 980px) and (max-width: 1024px) {
   .container:not(#blog) {
     padding: 0 2%;
   }
-  .blog{
+  #blog{
     padding: 0;
+  }
+  .logo {
+    width: 240px;
   }
 }
