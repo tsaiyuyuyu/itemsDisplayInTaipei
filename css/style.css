@@ -365,7 +365,7 @@ article {
   font-weight: 700;
 }
 .product-description {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
@@ -425,7 +425,7 @@ article {
 /* 手機直式、橫式 */
 @media screen and (max-width: 767px) {
   .container:not(#blog, #myTopnav, #homeProduct) {
-    padding: 0 1%;
+    padding: 0 2%;
   }
   /* .container滿版  */
   #blog,
@@ -478,6 +478,9 @@ article {
   }
   footer .footer-menu li {
     font-size: 16px;
+  }
+  .copyright {
+    font-size: 14px;
   }
   article {
     margin-top: 0px;
@@ -543,6 +546,15 @@ article {
   }
   footer .footer-menu .row {
     justify-content: space-between;
+  }
+  .product-description {
+    margin-bottom: 20px;
+  }
+  .border-line {
+    width: 100%;
+  }
+  .button-cart {
+    font-size: 20px;
   }
 }
 
