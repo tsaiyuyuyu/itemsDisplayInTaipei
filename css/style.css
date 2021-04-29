@@ -285,11 +285,12 @@ img {
   padding: 0 10px;
   font-size: 32px;
   margin: 15px 0;
+  color: #E2EFBE;
 }
 .date {
   font-size: 16px;
   padding: 0 10px;
-  color: #256a85;
+  color: #85A02D;
 }
 
 /* footer css */
