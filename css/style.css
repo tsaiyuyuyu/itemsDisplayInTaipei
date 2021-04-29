@@ -343,6 +343,9 @@ article {
   padding: 50px 2%;
   align-items: flex-start;
 }
+#productInfo img{
+  padding:0 5%;
+}
 #productInfo .row .column {
   width: 50%;
 }
@@ -369,6 +372,7 @@ article {
   font-weight: 700;
 }
 .product-description {
+  color: #CCCCCC;
   margin-bottom: 40px;
   text-align: justify;
   line-height: 1.5;
@@ -383,32 +387,35 @@ article {
 .counter-select {
   display: flex;
   font-size: 18px;
-  border: 1px solid #7fc2c1;
+  border: 1px solid #CCCCCC;
 }
 .counter .counter-select input {
   padding: 6px 10px;
-  border: 1px solid #7fc2c1;
-  background-color: #042b45;
+  border: 1px solid #CCCCCC;
+  background-color: #221C57;
   outline: none;
 }
 .counter label {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
+  color: #CCCCCC;
 }
 #count {
   width: 30px;
   text-align: center;
+  color: #CCCCCC;
 }
 #plus,
 #minus {
   cursor: pointer;
+  color: #CCCCCC;
 }
 .button-cart {
   font-size: 24px;
   width: 50%;
-  color: #dee6c7;
-  background-color: #747222;
+  color: #221C57;
+  background-color: #A8DC93;
   outline: none;
   border: none;
   padding: 12px 0;
@@ -416,11 +423,13 @@ article {
   right: 0;
 }
 .button-cart:active {
-  border: 2px solid #747222;
-  background-color: #042b45;
+  border: 2px solid#A8DC93;
+  background-color: #221C57;
+  color: #A8DC93;
 }
 .border-line {
-  border-top: 4px solid #256a85;
+  color: #B7B7B7;
+  border-top: 3px solid #B7B7B7;
   width: 50%;
   padding: 30px 0px;
   margin-top: 60px;
