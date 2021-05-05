@@ -384,23 +384,24 @@ article {
   font-size: 20px;
   font-weight: 400;
 }
-.counter {
+.counter-buttonCart-box {
   display: flex;
   align-items: center;
   position: relative;
+  margin-top: 70px;
 }
-.counter-select {
+.counter {
   display: flex;
   font-size: 18px;
   border: 1px solid #CCCCCC;
 }
-.counter .counter-select input {
+.counter-buttonCart-box .counter input {
   padding: 6px 10px;
   border: 1px solid #CCCCCC;
   background-color: #221C57;
   outline: none;
 }
-.counter label {
+.counter-buttonCart-box label {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -521,7 +522,10 @@ article {
   .product-description {
     font-size: 15.5px;
   }
-  .counter label {
+  .counter-buttonCart-box {
+    margin-top: 30px;
+  }
+  .counter-buttonCart-box  label {
     font-size: 12px;
     margin-right: 5px;
   }
