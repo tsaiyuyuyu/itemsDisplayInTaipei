@@ -1,5 +1,5 @@
 * {
-  color: #4EBFD3;
+  color: #49b1c3;
   font-family: maple-web, source-han-sans-traditional, sans-serif, 微軟正黑體;
   font-weight: 500;
   font-style: normal;
@@ -78,7 +78,7 @@ img {
 .hamburger div {
   height: 3px;
   width: 25px;
-  background-color: #4EBFD3;
+  background-color: #49b1c3;
   margin: 4px 0 5px 0;
 }
 .hamburger {
@@ -98,6 +98,7 @@ img {
 }
 .menu ul {
   font-size: 24px;
+  font-weight: 500;
   list-style-type: none;
   display: flex;
   margin: 0px;
@@ -234,20 +235,20 @@ img {
 .chapter {
   padding: 0 4%;
   margin: 5px 0;
-  color: #dee6c7;
+  color: #DBE3C5;
   font-size: 18px;
 }
 .price-container {
   padding: 0 4%;
   margin: 0;
-  color: #dee6c7;
+  color: #DBE3C5;
 }
 .price-line {
   text-decoration: line-through;
-  color: #dee6c7;
+  color: #DBE3C5;
 }
 .sale {
-  color: #4EBFD3;
+  color: #49b1c3;
   font-size: 24px;
   padding-left: 5px;
 }
@@ -290,7 +291,8 @@ img {
   padding: 0 10px;
   font-size: 32px;
   margin: 15px 0;
-  color: #E2EFBE;
+  font-weight: 400;
+  color: #DBE3C5;
 }
 .date {
   font-size: 16px;
@@ -329,13 +331,13 @@ footer .footer-menu .row {
   list-style-type: none;
   padding: 2px 10px;
   color: #2D80A0;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
 }
 .copyright {
   color: #2D80A0;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 12px;
 }
 
@@ -363,14 +365,14 @@ article {
   margin-bottom: 20px;
 }
 .title {
-  color: #dee6c7;
+  color: #DBE3C5;
   font-size: 36px;
   font-weight: 500;
   text-align: justify;
 }
 .price-container-big {
   font-size: 24px;
-  color: #dee6c7;
+  color: #DBE3C5;
   text-decoration: line-through;
 }
 .sale-big {
@@ -383,7 +385,7 @@ article {
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .counter-buttonCart-box {
   display: flex;
