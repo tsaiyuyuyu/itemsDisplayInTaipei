@@ -220,9 +220,9 @@ img {
   white-space: nowrap;
   margin:0;
   color: #616464;
-  animation: left-to-right 60s linear -3s infinite;
-  -webkit-animation: left-to-right 60s linear -3s infinite;
-  -moz-animation: left-to-right 60s linear -3s infinite;
+  animation: left-to-right 50s linear -3s infinite;
+  -webkit-animation: left-to-right 50s linear -3s infinite;
+  -moz-animation: left-to-right 50s linear -3s infinite;
 }
 @-webkit-keyframes left-to-right{
   from{
@@ -280,6 +280,27 @@ img {
   left: 0;
   top: 22%;
   z-index: 99;
+}
+.fake-cancel{
+  position: absolute;
+  top:-5px;
+  right:-5px;
+  width: 25px;
+  height: 25px;
+  background-color: #B1B5B5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.real-cancel{
+  color: #fff;
+  opacity: 0.6;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
 }
 
 /* homeProducts css */
