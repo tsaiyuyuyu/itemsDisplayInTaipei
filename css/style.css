@@ -87,22 +87,39 @@ img {
 }
 .icon-shop {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   display: flex;
   padding: 10px;
 }
-.icon-shop div {
+.icon-shop > div {
   width: 35px;
   height: 35px;
-  padding-left: 5%;
+  padding-right: 7%;
+}
+.icon-shop > div:nth-child(2){
+  position: relative;
+} 
+.number{
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ background-color: #EB64E6;
+ color:#002695 ;
+ font-size: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ right: 0;
+ top: 0;
 }
 .menu ul {
   color: #002695;
   font-size: 22px;
   list-style-type: none;
   display: flex;
-  margin: 0px;
+  margin: 0;
   background-color: #06C1C1;
   padding-right:18px ;
 }
@@ -142,7 +159,7 @@ img {
     right: 0px;
     padding: 0;
   }
-  .icon-shop div {
+  .icon-shop > div {
     width: 33px;
     height: 33px;
   }
@@ -186,9 +203,13 @@ img {
     top: 0;
     padding: 0;
   }
-  .icon-shop div {
+  .icon-shop > div {
     width: 27px;
     height: 27px;
+  }
+  .number{
+    width: 13px;
+    height: 13px;
   }
 }
 /* 跑馬燈 */
@@ -239,19 +260,25 @@ img {
 }
 
 /* 左右邊fixed */
-
+.message{
+  width: 65px;
+  position: fixed;
+  right: 25px;
+  bottom: 100px;
+  z-index: 99;
+}
+.top{
+  width: 45px;
+  position: fixed;
+  bottom: 25px;
+  right: 35px;
+  z-index: 99;
+}
 .side-banner{
   width: 125px;
   position: fixed;
   left: 0;
   top: 22%;
-  z-index: 99;
-}
-.top{
-  width: 50px;
-  position: fixed;
-  bottom: 20px;
-  right: 25px;
   z-index: 99;
 }
 
