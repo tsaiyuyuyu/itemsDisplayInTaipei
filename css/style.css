@@ -267,6 +267,7 @@ img {
   bottom: 90px;
   z-index: 99;
 }
+
 .top{
   width: 45px;
   position: fixed;
@@ -277,9 +278,22 @@ img {
 .side-banner{
   width: 125px;
   position: fixed;
-  left: 0;
+  left: -130px;
   top: 22%;
   z-index: 99;
+  animation-name: show-up;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes show-up{
+  from{
+    left: -130px;
+  }
+  to{
+    left: 0;
+  }
 }
 .fake-cancel{
   position: absolute;
