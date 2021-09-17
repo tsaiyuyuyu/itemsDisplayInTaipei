@@ -261,17 +261,17 @@ img {
 
 /* 左右邊fixed */
 .message{
-  width: 65px;
+  width: 60px;
   position: fixed;
-  right: 25px;
-  bottom: 100px;
+  right: 27px;
+  bottom: 90px;
   z-index: 99;
 }
 .top{
   width: 45px;
   position: fixed;
   bottom: 25px;
-  right: 35px;
+  right: 33px;
   z-index: 99;
 }
 .side-banner{
