@@ -280,7 +280,6 @@ img {
   left: 0;
   top: 22%;
   z-index: 99;
-  opacity: 1;
 }
 .fake-cancel{
   position: absolute;
