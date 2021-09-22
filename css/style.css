@@ -22,6 +22,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+*::selection {
+  background:#C8D2D2;
+}
+
 .container:not(#blog) {
   max-width: 1920px;
   padding: 0 8%;
@@ -106,7 +110,7 @@ img {
  border-radius: 50%;
  background-color: #EB64E6;
  color:#002695 ;
- font-size: 80%;
+ font-size: 70%;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -254,9 +258,6 @@ img {
 
 .banner {
   margin: auto;
-}
-.banner div {
-  cursor: pointer;
 }
 
 /* 左右邊fixed */
