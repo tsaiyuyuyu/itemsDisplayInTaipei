@@ -22,10 +22,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-*::selection {
+h1::selection {
   background:#C8D2D2;
 }
-
+p::selection {
+  background:#C8D2D2;
+}
+span::selection {
+  background:#C8D2D2;
+}
 .container:not(#blog) {
   max-width: 1920px;
   padding: 0 8%;
@@ -212,8 +217,8 @@ img {
     height: 27px;
   }
   .number{
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
   }
 }
 /* 跑馬燈 */
