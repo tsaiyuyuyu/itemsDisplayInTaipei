@@ -13,12 +13,13 @@ function minus() {
 }
 
 // 首頁banner輪播
-$('.banner').slick({
+
+$('.center').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  centerPadding: '18%',
+  centerPadding: '21%',
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 2500,
   dots: true,
   infinite: true,
   centerMode: true,

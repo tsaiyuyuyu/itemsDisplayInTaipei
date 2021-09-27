@@ -44,9 +44,12 @@ span::selection {
 .hashtag {
   width: 160px;
   font-size: 16px;
-  margin: 40px auto;
+  margin: 0px auto;
   color: #616464;
   text-align: center;
+}
+.blog .hashtag{
+  margin: 40px auto;
 }
 .normal-hover:hover {
   filter: brightness(1.15);
@@ -263,6 +266,7 @@ span::selection {
 
 .banner {
   margin: auto;
+  background-color: black;
 }
 
 /* 左右邊fixed */
@@ -285,7 +289,7 @@ span::selection {
   width: 125px;
   position: fixed;
   left: -130px;
-  top: 22%;
+  top: 35%;
   z-index: 99;
   animation-name: show-up;
   animation-duration: 1s;
@@ -325,9 +329,6 @@ span::selection {
 
 /* homeProducts css */
 
-#homeProduct {
-  margin-top: 50px;
-}
 #homeProduct .row,
 #needProduct .row {
   display: flex;

@@ -1,12 +1,14 @@
 @charset 'UTF-8';
 
-/* 自己調整透明度 */
-.slick-slide::not(#blog){
-    opacity: 0.5;
+/* banner透明度 */
+#banner .slick-slide{
+    opacity: 0.25;
   }
-  .slick-center{
-    opacity: 1 ;
+  
+#banner .slick-current{
+    opacity: 1;
   }
+
 
 /* Slider */
 .slick-loading .slick-list
@@ -79,9 +81,9 @@
     font-family: 'slick';
     font-size: 40px;
     line-height: 1;
-    background-color: #256A85;
-    opacity: .75;
-    color: #4EBFD3;
+    background-color: #C8D2D2;
+    opacity: .65;
+    color: #002695;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -133,7 +135,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: 10px;
 
     display: block;
 
@@ -202,7 +204,7 @@
     text-align: center;
 
     opacity: .25;
-    color:#DEE6C7;
+    color:#fff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -210,5 +212,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #DEE6C7;
+    color: #fff;
 }
