@@ -266,7 +266,7 @@ span::selection {
 
 .banner {
   margin: auto;
-  background-color: black;
+  background-color: #262929;
 }
 
 /* 左右邊fixed */
@@ -289,7 +289,7 @@ span::selection {
   width: 125px;
   position: fixed;
   left: -130px;
-  top: 35%;
+  top: 30%;
   z-index: 99;
   animation-name: show-up;
   animation-duration: 1s;
