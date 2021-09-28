@@ -16,16 +16,7 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
-/* Icons */
-@font-face
-{
-    font-family: 'slick';
-    font-weight: normal;
-    font-style: normal;
 
-    src: url('./fonts/slick.eot');
-    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
-}
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -38,8 +29,8 @@
 
     display: block;
 
-    width: 39px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -78,12 +69,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
-    font-size: 40px;
-    line-height: 1;
-    background-color: #C8D2D2;
-    opacity: .65;
-    color: #002695;
+    font-size: 80px;
+    font-weight: 400;
+    /* line-height: 1; */
+    opacity: .75;
+    color: #C8D2D2;
+    text-shadow:0px 0px 10px #000;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -91,39 +82,39 @@
 
 .slick-prev
 {
-    left: 18%;
+    left: 14.5%;
 }
 [dir='rtl'] .slick-prev
 {
-    right: 18%;
+    right: 14.5%;
     left: auto;
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '<';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '>';
 }
 
 .slick-next
 {
-    right:18%;
+    right:16%;
     
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: 18%;
+    left: 16%;
 }
 .slick-next:before
 {
-    content: '→';
+    content: '>';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '<';
 }
 
 /* Dots */
@@ -135,7 +126,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
 
     display: block;
 
@@ -190,7 +181,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 24px;
+    font-size: 20px;
     line-height: 20px;
 
     position: absolute;

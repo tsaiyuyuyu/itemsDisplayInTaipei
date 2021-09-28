@@ -22,15 +22,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-h1::selection {
-  background:#C8D2D2;
-}
-p::selection {
-  background:#C8D2D2;
-}
-span::selection {
-  background:#C8D2D2;
-}
+
 .container:not(#blog) {
   max-width: 1920px;
   padding: 0 8%;
@@ -63,6 +55,15 @@ span::selection {
 .menu ul li:hover {
   filter: brightness(1.25);
   cursor: pointer;
+}
+h1::selection {
+  background:#C8D2D2;
+}
+p::selection {
+  background:#C8D2D2;
+}
+span::selection {
+  background:#C8D2D2;
 }
 
 /* 導覽列css */
@@ -289,12 +290,12 @@ span::selection {
   width: 125px;
   position: fixed;
   left: -130px;
-  top: 30%;
+  top: 23%;
   z-index: 99;
   animation-name: show-up;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes show-up{
@@ -467,7 +468,7 @@ footer .footer-menu .row {
 }
 .copyright {
   color: #B1B5B5;
-  font-size: 18px;
+  font-size: 16px;
   padding: 12px;
 }
 
