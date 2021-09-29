@@ -290,7 +290,7 @@ span::selection {
   width: 125px;
   position: fixed;
   left: -130px;
-  top: 23%;
+  top: 22%;
   z-index: 99;
   animation-name: show-up;
   animation-duration: 1s;
