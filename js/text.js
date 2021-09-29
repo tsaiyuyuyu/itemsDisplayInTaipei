@@ -25,16 +25,16 @@ $('.center').slick({
   centerMode: true,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1200,
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '30px',
+        centerPadding: '10%',
         slidesToShow: 1
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 768,
       settings: {
         arrows: false,
         centerMode: true,
