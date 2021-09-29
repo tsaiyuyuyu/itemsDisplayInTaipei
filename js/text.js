@@ -17,7 +17,7 @@ function minus() {
 $('.center').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  centerPadding: '21%',
+  centerPadding: '22.5%',
   autoplay: true,
   autoplaySpeed: 2500,
   dots: true,
