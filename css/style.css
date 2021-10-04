@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color:#1A237E;
+  background-color:#30388A;
   margin: 0;
 }
 img {
@@ -36,12 +36,10 @@ img {
 .hashtag {
   width: 160px;
   font-size: 16px;
-  margin: 0px auto;
+  margin: 0 auto;
+  padding: 10px 0; 
   color: #B1B5B5;
   text-align: center;
-}
-.blog .hashtag{
-  margin: 40px auto;
 }
 .normal-hover:hover {
   filter: brightness(1.15);
@@ -57,16 +55,20 @@ img {
   cursor: pointer;
 }
 h1::selection {
-  background:#C8D2D2;
+  background:#C639BD;
 }
 p::selection {
-  background:#C8D2D2;
+  background:#C639BD;
 }
 span::selection {
-  background:#C8D2D2;
+  background:#C639BD;
 }
 
 /* 導覽列css */
+nav{
+  padding: 8px 0;
+  background-color: #000051;
+}
 .nav-fixed {
   position: fixed;
   width: 100%;
@@ -117,9 +119,10 @@ span::selection {
  width: 13px;
  height: 13px;
  border-radius: 50%;
- background-color: #EB64E6;
+ background-color: #FC6FF0;
  color:#002695;
  font-size: 70%;
+ font-weight: 500;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -389,7 +392,7 @@ span::selection {
 }
 .button-more {
   width: 160px;
-  margin: 40px auto;
+  margin: 20px auto;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -404,7 +407,8 @@ span::selection {
   background-image: url(../img/bg_home_secondHand@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 80px 0;
+  padding: 60px 0;
+  margin-top: 80px;
 }
 #secondHand .row {
   display: flex;
@@ -421,8 +425,12 @@ span::selection {
 /* 部落格 css */
 
 .blog{
-  padding-bottom: 100px;
+  padding-bottom:120px;
   background-color: #635CB6;
+} 
+.blog .hashtag{
+  padding: 40px 0 30px 0; 
+  color: #C8D2D2;
 } 
 .blog-box {
   padding: 10px 2%;
@@ -435,6 +443,7 @@ span::selection {
 }
 .date {
   font-size: 16px;
+  font-weight: 500;
   padding: 0 10px;
   color: #BDB7FF;
 }
@@ -442,7 +451,7 @@ span::selection {
 /* footer css */
 footer {
   background-color: #000;
-  padding: 10px 0 30px 0;
+  padding:10px 2%;
 }
 footer > .row {
   display: flex;
@@ -454,7 +463,7 @@ footer > .row {
   padding: 10px;
 }
 .icon-sns div {
-  width: 33px;
+  width: 30px;
   margin-right: 10px;
 }
 footer .footer-menu,
@@ -499,13 +508,13 @@ article {
   margin-bottom: 20px;
 }
 .title {
-  color: #000;
+  color: #fff;
   font-size: 36px;
   text-align: justify;
 }
 .price-container-big {
   font-size: 24px;
-  color: #002695;
+  color: #fff;
   text-decoration: line-through;
 }
 .sale-big {
@@ -513,7 +522,7 @@ article {
   font-weight: 700;
 }
 .product-description {
-  color: #000;
+  color: #fff;
   margin-bottom: 40px;
   text-align: justify;
   line-height: 1.5;
@@ -528,35 +537,37 @@ article {
 .counter {
   display: flex;
   font-size: 18px;
-  border: 1px solid #616464;
+  border: 1px solid #B1B5B5;
 }
 .counter-buttonCart-box .counter input {
   padding: 6px 10px;
-  border: 1px solid #616464;
-  background-color: #06C1C1;
+  border: 1px solid #B1B5B5;
+  background-color: #30388A;
   outline: none;
 }
 .counter-buttonCart-box label {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 500;
-  color: #616464;
+  color: #B1B5B5;
 }
 #count {
   width: 30px;
   text-align: center;
-  color: #616464;
+  color: #B1B5B5;
 }
 #plus,
 #minus {
   cursor: pointer;
-  color: #616464;
+  color: #B1B5B5;
 }
 .button-cart {
   font-size: 24px;
+  font-weight: 500;
   width: 50%;
-  color: #002695;
-  background-color: #EB64E6;
+  border-radius: 50px;
+  color: #1A237E;
+  background-color: #FC6FF0;
   outline: none;
   border: none;
   padding: 12px 0;
@@ -564,16 +575,19 @@ article {
   right: 0;
 }
 .button-cart:active {
-  /* border: 2px solid#EB64E6; */
-  background-color: #002695;
-  color: #EB64E6;
+  border: 2px solid #FC6FF0;
+  background-color: #1A237E;
+  color: #FC6FF0;
 }
 .border-line {
-  color: #616464;
-  border-top: 2px solid #616464;
+  color: #B1B5B5;
+  border-top: 2px solid #B1B5B5;
   width: 50%;
   padding: 30px 0px;
   margin-top: 60px;
+}
+#needProduct{
+  margin-bottom: 100px;
 }
 
 /* 手機直式、橫式 */
