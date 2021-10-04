@@ -95,7 +95,7 @@ nav{
   height: 3px;
   width: 25px;
   background-color: #C8D2D2;
-  margin: 4px 0 5px 0;
+  margin: 5px 0 5px 5px;
 }
 .hamburger {
   display: none;
@@ -142,7 +142,7 @@ nav{
 }
 @media screen and (max-width: 1200px) {
   nav{
-    padding: 1%;
+    padding: 10px;
     background-color: #000051;
   }
   .topnav {
@@ -160,13 +160,13 @@ nav{
   .hamburger {
     display: block;
     position: absolute;
-    top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0px;
   }
   .hamburger div {
     height: 2px;
     width: 24px;
-    margin: 5px 0 6px 0;
   }
   .icon-shop {
     position: absolute;
@@ -205,12 +205,11 @@ nav{
 }
 @media screen and (max-width: 480px) {
   nav{
-    padding: 1%;
+    padding: 10px;
   }
   .hamburger div {
     height: 2px;
     width: 22px;
-    margin: 4px 0 5px 0;
   }
 
   .icon-shop {
@@ -426,7 +425,7 @@ nav{
 
 .blog{
   padding-bottom:120px;
-  background-color: #6267A5;
+  background-color: #7177BC;
 } 
 .blog .hashtag{
   padding: 40px 0 30px 0; 
@@ -645,7 +644,7 @@ article {
     justify-content: space-between;
   }
   footer .footer-menu li {
-    font-size: 16px;
+    font-size: 14px;
   }
   .copyright {
     font-size: 14px;
