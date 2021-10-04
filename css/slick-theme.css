@@ -19,6 +19,16 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
 
 /* Arrows */
 .slick-prev,
@@ -26,7 +36,7 @@
 {
     font-size: 0;
     line-height: 0;
-
+    font-family: 'slick';
     position: absolute;
     top: 50%;
 
@@ -72,12 +82,10 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-size: 80px;
-    font-weight: 400;
-    /* line-height: 1; */
-    opacity: .75;
+    font-size: 40px;
+    line-height: 1;
+    opacity: .65;
     color: #C8D2D2;
-    text-shadow:0px 0px 10px #000;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -94,11 +102,11 @@
 }
 .slick-prev:before
 {
-    content: '<';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '>';
+    content: '→';
 }
 
 .slick-next
@@ -113,11 +121,11 @@
 }
 .slick-next:before
 {
-    content: '>';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '<';
+    content: '←';
 }
 
 /* Dots */
@@ -129,7 +137,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
 
     display: block;
 
@@ -146,8 +154,8 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 0 5px;
     padding: 0;
 
@@ -160,8 +168,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     padding: 5px;
 
     cursor: pointer;
@@ -184,15 +192,15 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 10px;
     line-height: 20px;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 
     content: '•';
     text-align: center;

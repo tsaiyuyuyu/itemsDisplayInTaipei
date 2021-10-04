@@ -1,7 +1,7 @@
 * {
-  color: #002695;
+  color: #C8D2D2;
   font-family: maple-web, source-han-sans-traditional, sans-serif, 微軟正黑體;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   text-decoration: none;
   outline: none;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #06C1C1;
+  background-color:#1A237E;
   margin: 0;
 }
 img {
@@ -37,7 +37,7 @@ img {
   width: 160px;
   font-size: 16px;
   margin: 0px auto;
-  color: #616464;
+  color: #B1B5B5;
   text-align: center;
 }
 .blog .hashtag{
@@ -70,7 +70,6 @@ span::selection {
 .nav-fixed {
   position: fixed;
   width: 100%;
-  background-color: #06C1C1;
   z-index: 10;
   top: 0;
   right: 0;
@@ -81,6 +80,7 @@ span::selection {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  background-color: #000051;
 }
 .logo {
   width: 250px;
@@ -92,7 +92,7 @@ span::selection {
 .hamburger div {
   height: 3px;
   width: 25px;
-  background-color: #002695;
+  background-color: #C8D2D2;
   margin: 4px 0 5px 0;
 }
 .hamburger {
@@ -118,7 +118,7 @@ span::selection {
  height: 13px;
  border-radius: 50%;
  background-color: #EB64E6;
- color:#002695 ;
+ color:#002695;
  font-size: 70%;
  display: flex;
  justify-content: center;
@@ -128,20 +128,19 @@ span::selection {
  top: 0;
 }
 .menu ul {
-  color: #002695;
   font-size: 20px;
   list-style-type: none;
   display: flex;
   margin: 0;
-  background-color: #06C1C1;
   padding-right:18px ;
 }
 .menu ul li {
-  padding:6px 10px;
+  padding:10px;
 }
 @media screen and (max-width: 1200px) {
   nav{
     padding: 1%;
+    background-color: #000051;
   }
   .topnav {
     position: relative;
@@ -162,8 +161,8 @@ span::selection {
     left: 0px;
   }
   .hamburger div {
-    height: 3px;
-    width: 26px;
+    height: 2px;
+    width: 24px;
     margin: 5px 0 6px 0;
   }
   .icon-shop {
@@ -198,7 +197,7 @@ span::selection {
     display: block;
   }
   .topnav.responsive .menu ul li {
-    border-top: 2px solid #002695;
+    border-top: 2px solid #534BAE;
   }
 }
 @media screen and (max-width: 480px) {
@@ -206,8 +205,8 @@ span::selection {
     padding: 1%;
   }
   .hamburger div {
-    height: 3px;
-    width: 25px;
+    height: 2px;
+    width: 22px;
     margin: 4px 0 5px 0;
   }
 
@@ -228,14 +227,16 @@ span::selection {
 /* 跑馬燈 */
 .marquee{
   overflow: hidden;
+  background-color: #534BAE;
 }
 .marquee p{
   white-space: nowrap;
   margin:0;
-  color: #616464;
-  animation: left-to-right 50s linear -10s infinite;
-  -webkit-animation: left-to-right 50s linear -10s infinite;
-  -moz-animation: left-to-right 50s linear -10s infinite;
+  color: #C8D2D2;
+  font-size: 15px;
+  animation: left-to-right 40s linear -8s infinite;
+  -webkit-animation: left-to-right 40s linear -8s infinite;
+  -moz-animation: left-to-right 40s linear -8s infinite;
 }
 @-webkit-keyframes left-to-right{
   from{
@@ -314,6 +315,7 @@ span::selection {
   width: 25px;
   height: 25px;
   background-color: #B1B5B5;
+  color: #1A237E;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -367,7 +369,7 @@ span::selection {
 .chapter {
   padding: 0 4%;
   margin: 5px 0;
-  color: #000;
+  color: #FFF;
   font-size: 18px;
 }
 .price-container {
@@ -377,11 +379,12 @@ span::selection {
 }
 .price-line {
   text-decoration: line-through;
-  color: #000;
+  color: #FFF;
 }
 .sale {
-  color: #D646D1;
+  color: #FC6FF0;
   font-size: 24px;
+  font-weight: 500;
   padding-left: 5px;
 }
 .button-more {
@@ -390,9 +393,10 @@ span::selection {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
+  color: #9389FF;
 }
 .button-more:active{
-  color: #D646D1;
+  color: #FC6FF0;
 }
 
 /* 二手專區 css */
@@ -417,7 +421,8 @@ span::selection {
 /* 部落格 css */
 
 .blog{
-  margin-bottom: 100px;
+  padding-bottom: 100px;
+  background-color: #635CB6;
 } 
 .blog-box {
   padding: 10px 2%;
@@ -426,21 +431,18 @@ span::selection {
   padding: 0 10px;
   font-size: 32px;
   margin: 15px 0;
-  color: #000;
+  color: #fff;
 }
 .date {
   font-size: 16px;
   padding: 0 10px;
-  color: #616464;
+  color: #BDB7FF;
 }
 
 /* footer css */
 footer {
-  background-image: url(../img/bg_footer.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 55px 0 30px 0;
-  margin-top: 50px;
+  background-color: #000;
+  padding: 10px 0 30px 0;
 }
 footer > .row {
   display: flex;
@@ -465,7 +467,7 @@ footer .footer-menu .row {
   list-style-type: none;
   padding: 2px 10px;
   color: #B1B5B5;
-  font-size: 18px;
+  font-size: 16px;
 }
 .copyright {
   color: #B1B5B5;
