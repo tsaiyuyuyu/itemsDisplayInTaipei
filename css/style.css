@@ -160,10 +160,10 @@ nav{
   .hamburger {
     display: block;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0px;
+    top: 2px;
+    left: 0;
   }
+  
   .hamburger div {
     height: 2px;
     width: 24px;
@@ -189,8 +189,8 @@ nav{
   }
   .topnav.responsive .hamburger {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 2px;
+    left: 0;
   }
   .topnav.responsive .menu {
     display: block;
@@ -206,6 +206,10 @@ nav{
 @media screen and (max-width: 480px) {
   nav{
     padding: 10px;
+  }
+  .hamburger{
+    display: block;
+    top:0;
   }
   .hamburger div {
     height: 2px;
@@ -224,6 +228,9 @@ nav{
   .number{
     width: 11px;
     height: 11px;
+  }
+  .topnav.responsive .hamburger {
+    top: 0;   
   }
 }
 /* 跑馬燈 */
