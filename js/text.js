@@ -104,3 +104,13 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
+// 點message
+function myFunction() {
+  var x = document.getElementById("chatbox");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
