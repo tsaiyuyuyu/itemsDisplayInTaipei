@@ -293,6 +293,7 @@ nav{
   z-index: 100;
   border-radius: 15px;
   box-shadow: 0px 3px 6px #00000029;
+  display: none;
 }
 .chat-header{
   background-color: #BDB7FF;
