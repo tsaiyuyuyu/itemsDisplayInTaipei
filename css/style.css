@@ -55,7 +55,7 @@ img {
   cursor: pointer;
 }
 *::selection {
-  color: #30388A;
+  color: #1A237E;
   background:#FFA3FF;
 }
 
@@ -568,7 +568,7 @@ nav{
 
 .blog{
   padding-bottom:120px;
-  background-color: #5B55A0;
+  background-color: #625CA8;
 } 
 .blog .hashtag{
   padding: 40px 0 30px 0; 
@@ -669,6 +669,7 @@ article {
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
+  height: 140px;
 }
 .counter-buttonCart-box {
   display: flex;
@@ -818,6 +819,7 @@ article {
   }
   .product-description {
     margin-bottom: 15px;
+    height: auto;
   }
   .title {
     font-size: 28px;
