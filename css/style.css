@@ -371,6 +371,8 @@ nav{
   padding: 15px;
   display: flex;
   align-items: center;
+  background-color: #fff;
+  z-index: 101;
 }
 
 .plus {
@@ -756,13 +758,13 @@ article {
     bottom:0;
     left: 0;
     border-radius: 0;
-    overflow: scroll;
   }
   .chat-header{
     border-radius: 0;
   }
   .chat-speaker{
     margin-bottom: 20px;
+    overflow: scroll;
   }
   .answer{
     position: absolute;
