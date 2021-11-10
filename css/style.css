@@ -307,18 +307,19 @@ nav{
   color: #534BAE;
 }
 
-.close {
+#chatbox .close{
   position: absolute;
-  right: 10px;
+  right: 13px;
   top: 10px;
+}
+.close {
   width: 15px;
   height: 15px;
 }
 .close:before, .close:after {
   position: absolute;
-  /* right: 20px;
-  top:10px; */
   content: ' ';
+  right: 5px;
   height: 15px;
   width: 2px;
   background-color: #fff;
@@ -455,20 +456,23 @@ nav{
   width: 25px;
   height: 25px;
   background-color: #B1B5B5;
-  color: #1A237E;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
 }
+
+.fake-cancel .close:before, .fake-cancel .close:after{
+  background-color:  #1A237E;
+  right: 12px;
+}
+
 .real-cancel{
   color: #fff;
-  opacity: 0.6;
-  font-size: 30px;
+  opacity: 0.8;
   position: absolute;
   left: 10px;
-  top: 5px;
+  top: 10px;
 }
 
 /* homeProducts css */
