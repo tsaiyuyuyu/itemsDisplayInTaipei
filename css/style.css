@@ -297,7 +297,7 @@ nav{
 }
 .chat-header{
   background-color: #BDB7FF;
-  border-radius: 13px 13px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
   display: flex;
 }
 .chat-title{
@@ -337,9 +337,10 @@ nav{
   color: #B1B5B5;
 }
 .chat-ask{
+  width: 100%;
   display: flex;
   padding:5px 15px;
-  margin-bottom:60px;
+  margin-bottom:100px;
 }
 .profile-picture{
   width: 35px;
@@ -348,8 +349,10 @@ nav{
   background-color: #534BAE;
   margin-right: 10px;
 }
+.chat-content{
+  width: 70%;
+}
 .chat{
-  width: 220px;
   border-radius: 15px;
   background-color:#E7E8E8;
   padding: 10px;
@@ -403,7 +406,7 @@ nav{
   transform:translateY(-50%);
 }
 .textarea{
-  width: 260px;
+  width: 85%;
   height: 38px;
   background-color: #E7E8E8;
   border-radius: 20px;
@@ -745,6 +748,17 @@ article {
   .chapter {
     font-size: 15px;
   }
+  .chatbox{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    border-radius: 0;
+  }
+  .chat-header{
+    border-radius: 0;
+  }
+
   .chapter,
   .price-container {
     padding: 0 2%;
