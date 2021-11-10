@@ -769,7 +769,6 @@ article {
   }
   .chat-speaker{
     margin-bottom: 20px;
-    overflow: scroll;
   }
   .answer{
     position: absolute;
