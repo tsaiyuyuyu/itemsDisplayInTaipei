@@ -233,6 +233,7 @@ nav{
 .marquee{
   overflow: hidden;
   background-color: #534BAE;
+  padding-bottom:2px;
 }
 .marquee p{
   white-space: nowrap;
