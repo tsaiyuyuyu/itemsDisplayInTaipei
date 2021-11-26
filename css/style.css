@@ -724,6 +724,7 @@ article {
   outline: 2px solid #FC6FF0;
   background-color: #30388A;
   color: #FC6FF0;
+  border-radius: 50px;
 }
 .border-line {
   color: #B1B5B5;
@@ -767,9 +768,15 @@ max-width: 400px;
   font-size: 20px;
   background-color:#30388A;
 }
-/* input[type="email"],textarea{
-  color: #BDB7FF;
-} */
+input[type="email"],textarea{
+  color: #fff;
+} 
+input[type="password"],textarea{
+  color: #fff;
+} 
+.login input:focus{
+  outline: 2px solid #FFF
+}
 
 ::placeholder{
   color:  #BDB7FF;
