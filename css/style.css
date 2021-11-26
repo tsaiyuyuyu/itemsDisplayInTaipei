@@ -60,7 +60,7 @@ img {
 }
 
 
-/* 導覽列css */
+/* 導覽列css */
 nav{
   padding: 7px 0;
   background-color: #000051;
@@ -148,10 +148,10 @@ nav{
     display: none;
   }
   .logo {
-    width: 180px;
+    width: 160px;
     margin: auto;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: -2px;
+    /* margin-bottom: 2px; */
   }
   .hamburger {
     display: block;
@@ -705,22 +705,24 @@ article {
   cursor: pointer;
   color: #B1B5B5;
 }
-.button-cart {
+.button {
   font-size: 24px;
   font-weight: 500;
-  width: 50%;
   border-radius: 50px;
   color: #1A237E;
   background-color: #FC6FF0;
   outline: none;
   border: none;
   padding: 12px 0;
+}
+#productInfo .button{
+  width: 50%;
   position: absolute;
   right: 0;
 }
-.button-cart:active {
-  border: 2px solid #FC6FF0;
-  background-color: #1A237E;
+.button:active {
+  outline: 2px solid #FC6FF0;
+  background-color: #30388A;
   color: #FC6FF0;
 }
 .border-line {
@@ -732,6 +734,45 @@ article {
 }
 #needProduct{
   margin-bottom: 100px;
+}
+
+/* login page */
+.login{
+text-align: center;
+margin: auto;
+padding-top: 80px;
+padding-bottom: 150px;
+max-width: 400px; 
+}
+.login h1{
+  font-size: 36px;
+  color: #BDB7FF;
+}
+.login .button{
+  width: 100%;
+}
+.mini-click{
+  font-size: 14px;
+  color: #BDB7FF;
+  text-align: end;
+  padding: 7px;
+}
+.login input{
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left:20px;
+  outline: 2px solid #BDB7FF;
+  border: none;
+  color: #BDB7FF;
+  font-size: 20px;
+  background-color:#30388A;
+}
+::placeholder{
+  color:  #BDB7FF;
+}
+.input-container{
+  margin-bottom: 20px;
 }
 
 /* 手機直式、橫式 */
@@ -847,6 +888,9 @@ article {
   .button-cart {
     font-size: 16px;
   }
+  .login{
+    width: 80%; 
+    }
 }
 
 /* 平板直式 */
