@@ -764,10 +764,13 @@ max-width: 400px;
   padding-left:20px;
   outline: 2px solid #BDB7FF;
   border: none;
-  color: #BDB7FF;
   font-size: 20px;
   background-color:#30388A;
 }
+input[type="email"],textarea{
+  color: #BDB7FF;
+}
+
 ::placeholder{
   color:  #BDB7FF;
 }
@@ -891,6 +894,9 @@ max-width: 400px;
   .login{
     width: 80%; 
     }
+    .login h1{
+      font-size: 28px;
+    }
 }
 
 /* 平板直式 */
@@ -934,6 +940,7 @@ max-width: 400px;
   .button-cart {
     font-size: 20px;
   }
+
 }
 
 /* 平板橫式 */
