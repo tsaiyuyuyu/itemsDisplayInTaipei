@@ -712,7 +712,7 @@ article {
   color: #1A237E;
   background-color: #FC6FF0;
   outline: none;
-  border: none;
+  border: 2px solid #FC6FF0;
   padding: 12px 0;
 }
 #productInfo .button{
@@ -721,7 +721,7 @@ article {
   right: 0;
 }
 .button:active {
-  outline: 2px solid #FC6FF0;
+  border: 2px solid #FC6FF0;
   background-color: #30388A;
   color: #FC6FF0;
   border-radius: 50px;
@@ -900,10 +900,11 @@ input[type="password"],textarea{
   }
   .login{
     width: 80%; 
+    padding-top: 50px;
     }
-    .login h1{
-      font-size: 28px;
-    }
+  .login h1{
+    font-size: 28px;
+   }
 }
 
 /* 平板直式 */
