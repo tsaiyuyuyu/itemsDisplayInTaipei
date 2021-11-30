@@ -865,6 +865,9 @@ input[type="password"],textarea{
   .copyright {
     font-size: 14px;
   }
+  #productInfo img{
+    margin-top: 20px;
+  }
   article {
     margin-top: 0px;
   }
