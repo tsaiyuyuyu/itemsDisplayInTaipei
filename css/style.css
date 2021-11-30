@@ -6,7 +6,7 @@
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
-  -webkit-tap-highlight-color:transparent;
+  -webkit-tap-highlight-color:transparent;/* 解決手機端頁面的鼠標點擊出現藍色背景 */
   /* border: 1px solid black; */
 }
 
@@ -24,20 +24,6 @@ img {
   height: auto;
   pointer-events: none; 
 }
-
-/* button,
-textarea,
-input,
-img,
-a{
-  -webkit-tap-highlight-color: red;
- -webkit-tap-highlight-color: transparent;
- -webkit-user-select: none;
- -khtml-user-select: none;
- -moz-user-select: none;
- -ms-user-select: none;
-  user-select: none;
-} */
 
 .container:not(#blog) {
   max-width: 1920px;
