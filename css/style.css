@@ -21,6 +21,8 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  -webkit-tap-highlight-color:transparent;
+  pointer-events: none; 
 }
 
 .container:not(#blog) {
@@ -232,13 +234,13 @@ nav{
 /* 跑馬燈 */
 .marquee{
   overflow: hidden;
-  background-color: #534BAE;
+  background-color: #6C58BC;
   padding-bottom:2px;
 }
 .marquee p{
   white-space: nowrap;
   margin:0;
-  color: #C8D2D2;
+  color: #D4DBDB;
   font-size: 15px;
   animation: left-to-right 40s linear -8s infinite;
   -webkit-animation: left-to-right 40s linear -8s infinite;
