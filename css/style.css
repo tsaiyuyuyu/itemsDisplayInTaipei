@@ -73,7 +73,7 @@ nav{
   z-index: 10;
   top: 0;
   right: 0;
-  box-shadow: 0px 1px 10px #000051c5;
+  box-shadow: 0px 1px 10px #000051ce;
 }
 .topnav {
   overflow: hidden;
@@ -205,7 +205,7 @@ nav{
 }
 @media screen and (max-width: 480px) {
   nav{
-    padding:12px 10px;
+    padding:12px 8px;
   }
   .hamburger{
     display: block;
@@ -906,7 +906,7 @@ input[type="password"],textarea{
     font-size: 20px;
   }
   #productInfo .button{
-    width: 60%;
+    width: 55%;
   }
   .login{
     width: 80%; 
