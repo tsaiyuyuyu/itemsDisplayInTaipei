@@ -659,10 +659,17 @@ article {
   font-size: 36px;
   text-align: justify;
 }
+.original-price-label{
+  color: #fff;
+}
 .price-container-big {
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
   text-decoration: line-through;
+}
+.sale-label{
+  padding-left: 5px;
+  color: #fff;
 }
 .sale-big {
   font-size: 42px;
