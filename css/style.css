@@ -533,12 +533,13 @@ nav{
 .price-line {
   text-decoration: line-through;
   color: #FFF;
+  font-size: 14px;
 }
 .sale {
   color: #FC6FF0;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
-  padding-left: 5px;
+  padding-left: 2px;
 }
 .button-more {
   width: 160px;
@@ -668,7 +669,7 @@ article {
   color: #fff;
 }
 .price-container-big {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   text-decoration: line-through;
 }
@@ -677,7 +678,7 @@ article {
   color: #fff;
 }
 .sale-big {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
 }
 .product-description {
@@ -695,16 +696,16 @@ article {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #1A237E; 
+  background: #343d9e; 
   box-shadow: inset 0 0 1px #000; 
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:#534BAE ; 
+  background:#251283; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #A4AED6; 
+  background: #9389FF; 
 }
 
 .counter-buttonCart-box {
