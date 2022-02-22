@@ -588,13 +588,13 @@ nav{
 }
 .blog-title {
   padding: 0 10px;
-  font-size: 32px;
+  font-size: 30px;
   margin: 15px 0;
   color: #fff;
   font-weight: 400;
 }
 .date {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   padding: 0 10px;
   color: #BDB7FF;
@@ -669,7 +669,7 @@ article {
   color: #fff;
 }
 .price-container-big {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   text-decoration: line-through;
 }
@@ -678,8 +678,8 @@ article {
   color: #fff;
 }
 .sale-big {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 500;
 }
 .product-description {
   color: #fff;
@@ -770,7 +770,7 @@ article {
   margin-top: 60px;
 }
 #needProduct{
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 /* login page */
