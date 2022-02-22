@@ -1,7 +1,7 @@
 * {
-  color: #C8D2D2;
+  /* color: #C8D2D2; */
   font-family: maple-web, source-han-sans-traditional, sans-serif, 微軟正黑體;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
   text-decoration: none;
   outline: none;
@@ -41,6 +41,7 @@ img {
   margin: 0 auto;
   padding: 10px 0; 
   color: #B1B5B5;
+  font-weight: 400;
   text-align: center;
 }
 .normal-hover:hover {
@@ -66,6 +67,7 @@ img {
 nav{
   padding: 7px 0;
   background-color: #000051;
+  color: #C8D2D2;
 }
 .nav-fixed {
   position: fixed;
@@ -521,6 +523,7 @@ nav{
   margin: 5px 0;
   color: #FFF;
   font-size: 18px;
+  font-weight: 400;
 }
 .price-container {
   padding: 0 4%;
@@ -587,6 +590,7 @@ nav{
   font-size: 32px;
   margin: 15px 0;
   color: #fff;
+  font-weight: 400;
 }
 .date {
   font-size: 16px;
@@ -658,12 +662,13 @@ article {
   color: #fff;
   font-size: 36px;
   text-align: justify;
+  font-weight: 500;
 }
 .original-price-label{
   color: #fff;
 }
 .price-container-big {
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   text-decoration: line-through;
 }
@@ -672,7 +677,7 @@ article {
   color: #fff;
 }
 .sale-big {
-  font-size: 42px;
+  font-size: 28px;
   font-weight: 700;
 }
 .product-description {
@@ -681,13 +686,32 @@ article {
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
-  height: 140px;
+  max-height: 200px;
+  overflow: auto;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1A237E; 
+  box-shadow: inset 0 0 1px #000; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#534BAE ; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #A4AED6; 
+}
+
 .counter-buttonCart-box {
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .counter {
   display: flex;
