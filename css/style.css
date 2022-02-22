@@ -123,6 +123,7 @@ nav{
  border-radius: 50%;
  background-color: #FC6FF0;
  color:#002695;
+ padding-top: 2px;
  font-size: 70%;
  font-weight: 500;
  display: flex;
