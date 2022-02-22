@@ -785,12 +785,14 @@ max-width: 400px;
 .login h1{
   font-size: 36px;
   color: #BDB7FF;
+  font-weight: 500;
 }
 .login .button{
   width: 100%;
 }
 .mini-click{
   font-size: 14px;
+  font-weight: 400;
   color: #BDB7FF;
   text-align: end;
   padding: 7px;
