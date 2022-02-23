@@ -663,14 +663,21 @@ article {
 .title {
   color: #fff;
   font-size: 36px;
-  /* text-align: justify; */
+  text-align: justify;
   font-weight: 500;
+}
+.title-en{
+  color: #fff;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .original-price-label{
   color: #fff;
+  font-size: 16px;
 }
 .price-container-big {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   text-decoration: line-through;
 }
@@ -690,6 +697,21 @@ article {
   font-size: 20px;
   max-height: 200px;
   overflow: auto;
+}
+.product-description-en{
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 18px;
+  /* max-height: 200px; */
+  overflow: auto;
+}
+details{
+  color: #BDB7FF;
+}
+details p{
+  margin: 5px 0; 
 }
 /* width */
 ::-webkit-scrollbar {
