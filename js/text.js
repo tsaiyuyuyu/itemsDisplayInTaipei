@@ -114,3 +114,5 @@ function showMessage() {
   }
 }
 
+//中英切換
+

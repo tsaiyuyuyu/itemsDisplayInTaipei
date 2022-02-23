@@ -663,7 +663,7 @@ article {
 .title {
   color: #fff;
   font-size: 36px;
-  text-align: justify;
+  /* text-align: justify; */
   font-weight: 500;
 }
 .original-price-label{
