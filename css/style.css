@@ -7,7 +7,7 @@
   outline: none;
   box-sizing: border-box;
   -webkit-tap-highlight-color:transparent;/* 解決手機端頁面的鼠標點擊出現藍色背景 */
-  /* border: 1px solid black; */
+  /* border: 1px solid rgb(255, 255, 255); */
 }
 
 html {
@@ -142,6 +142,9 @@ nav{
 }
 .menu ul li {
   padding:10px;
+}
+.menu-en ul li{
+  padding: 14px;
 }
 @media screen and (max-width: 1200px) {
   nav{
@@ -815,7 +818,7 @@ max-width: 400px;
   width: 100%;
 }
 .mini-click{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #BDB7FF;
   text-align: end;
