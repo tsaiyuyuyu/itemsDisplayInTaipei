@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/cyz5ker.css" />
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'poo0ujm',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <title>台北租屋用品店</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-fixed">
+            <div class="topnav container" id="myTopnav">
+                <div class="hamburger" onclick="myFunction()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../../img/logo_header.svg" alt="北漂租屋用品店logo" /></a>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li>最新商品</li>
+                        <li>木板隔間</li>
+                        <li>頂樓加蓋</li>
+                        <li>凶宅鬼屋</li>
+                        <li>地下室</li>
+                    </ul>
+                </div>
+                <div class="icon-shop">
+                    <div class="normal-hover"><a href="../../login.html"><img src="../../img/icon_header_member.svg"
+                                alt="會員icon" /></a></div>
+                    <div class="normal-hover"><a href="../../login.html"><img src="../../img/icon_header_cart.svg"
+                                alt="購物車icon" /></a>
+                        <div class="number">0</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="top normal-hover"><a href="#productInfo"><img src="../../img/icon_home_top.svg" alt="top"></a></div>
+    </header>
+
+    <article id="productInfo">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="../../img/img_products_earplugs_hover@2x.png" alt="耳塞" />
+                </div>
+
+                <div class="info-box column">
+                    <div class="content">
+                        <h1 class="title-en">Earplugs for not hearing every detail about your neighbors' lives</h1>
+                        <span class="original-price-label">List price: </span><span class="price-container-big">NT$70
+                        </span><span class="sale sale-big">NT$49</span>
+                        <p class="product-description-en">
+                            The man who lives next to your room gets up at 7:30 a.m. and goes to work after playing
+                            computer games for about 20 mins. Then he comes home at night and plays games again. You
+                            can hear all details clearly through the thin wooden wall.
+                            <br>Another man who lives across is a student. He complains to a friend about
+                            the final season of the television series Game of Thrones. You can hear how they talk about
+                            everything as well, and you hear the big ending without a spoiler alert!
+
+                        </p>
+                    </div>
+                    <div class="counter-buttonCart-box">
+                        <label>quantity</label>
+                        <div class="counter">
+                            <input type="button" value="-" id="minus" onclick="minus()">
+                            <input type="text" value="1" id="count">
+                            <input type="button" value="+" id="plus" onclick="plus()">
+                        </div>
+                        <button class="button normal-hover">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section>
+        <div class="container">
+            <div class="graphic-novel">
+                <img src="../../img/img_products_earplugs_panel_1_en.png" alt="房東在門外喊：「小姐，收房租，來看電錶」" />
+            </div>
+
+            <div class="graphic-novel">
+                <img src="../../img/img_products_earplugs_panel_2.png" alt="你們在昏暗的外面，房東拿起手電筒照向電錶" />
+            </div>
+            <div class="graphic-novel">
+                <img src="../../img/img_products_earplugs_panel_3_en.png"
+                    alt="這個月16701減掉上個月16512，乘以每度電5元，再除以2平分，這樣電費一個人是多少錢？" />
+                 <details>
+                        <summary>Notes</summary>
+                        <p>NT$5 per kilowatt-hour is a common rate in Taiwan. And this rate is usually setten by the landlord. </p>
+                    </details> 
+            </div>
+
+            <div class="graphic-novel">
+                <img src="../../img/img_products_earplugs_panel_4_en.png" alt="從牆壁傳來隔壁房客的聲音「472.5」，你說：「你下班啦」" />
+            </div>
+        </div>
+
+    </section>
+
+    <section id="needProduct">
+        <div class="container">
+            <p class="border-line">You May Also Need</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="product-box column">
+                    <a href="../../products/smokeDetector.html">
+                        <div class="two-image">
+                            <div class="product-cover">
+                                <img src="../../img/img_products_smokeDetector.png" alt="火警探測器" />
+                            </div>
+                            <div class="product-hover">
+                                <img src="../../img/img_products_smokeDetector_hover.png" alt="火警探測器" />
+                            </div>
+                        </div>
+                        <h4 class="chapter">木板隔間與火災的距離之差動式火警探測器</h4>
+                        <div class="price-container">
+                            <span class="price-line">NT$99 </span><span class="sale">NT$87</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-box column">
+                    <a href="../../products/lock.html">
+                        <div class="two-image">
+                            <div class="product-cover">
+                                <img src="../../img/img_products_lock.png" alt="鐵鍊鎖頭組" />
+                            </div>
+                            <div class="product-hover">
+                                <img src="../../img/img_products_lock_hover.png" alt="鐵鍊鎖頭組" />
+                            </div>
+                        </div>
+                        <h4 class="chapter">防止惡房東偷進房間之鐵鍊鎖頭組</h4>
+                        <div class="price-container">
+                            <span class="price-line">NT$99 </span><span class="sale">NT$87</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-box column">
+                    <a href="../../products/clay.html">
+                        <div class="two-image">
+                            <div class="product-cover">
+                                <img src="../../img/img_products_clay.png" alt="補土" />
+                            </div>
+                            <div class="product-hover">
+                                <img src="../../img/img_products_clay_hover.png" alt="補土" />
+                            </div>
+                        </div>
+                        <h4 class="chapter">自己的壁癌自己補補土</h4>
+                        <div class="price-container">
+                            <span class="price-line">NT$350 </span><span class="sale">NT$319</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-box column">
+                    <a href="../../products/insecticide.html">
+                        <div class="two-image">
+                            <div class="product-cover">
+                                <img src="../../img/img_products_insecticide.png" alt="殺蟲劑" />
+                            </div>
+                            <div class="product-hover">
+                                <img src="../../img/img_products_insecticide_hover.png" alt="殺蟲劑" />
+                            </div>
+                        </div>
+                        <h4 class="chapter">避免生物多樣性之噴霧殺蟲劑</h4>
+                        <div class="price-container">
+                            <span class="price-line">NT$399 </span><span class="sale">NT$349</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container row">
+            <div class="icon-sns column">
+                <div class="normal-hover">
+                    <img src="../../img/icon_footer_ig.svg" alt="instagram" />
+                </div>
+                <div class="normal-hover">
+                    <img src="../../img/icon_footer_fb.svg" alt="facebook" />
+                </div>
+                <div class="normal-hover">
+                    <img src="../../img/icon_footer_line.svg" alt="line" />
+                </div>
+            </div>
+
+            <div class="footer-menu column">
+                <ul class="row">
+                    <li class="column normal-hover">About Us</li>
+                    <li class="column normal-hover">News</li>
+                    <li class="column normal-hover">Contact</li>
+                </ul>
+                <ul class="row">
+                    <li class="column normal-hover">Order FAQs</li>
+                    <li class="column normal-hover">Shipping & Return</li>
+                    <li class="column normal-hover">Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="copyright column">© 2022 台北租屋用品店</div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../../js/text.js"></script>
+
+</body>
+
+</html>

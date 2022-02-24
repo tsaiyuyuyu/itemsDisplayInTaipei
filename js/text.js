@@ -114,5 +114,14 @@ function showMessage() {
   }
 }
 
-//中英切換
+//回頂端，還是不靈
+$(".jq-goTop").click(function (e) {
+  e.preventDefault();
+  $("html,body").animate(
+    {
+      scrollTop: 0,
+    },
+    800
+  );
+});
 

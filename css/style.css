@@ -437,6 +437,7 @@ nav{
   right: 33px;
   z-index: 99;
 }
+
 .side-banner{
   width: 125px;
   position: fixed;
@@ -670,8 +671,8 @@ article {
   color: #fff;
   font-size: 34px;
   font-weight: 500;
-  line-height: 1.2;
-  margin: 15px 0;
+  line-height: 1.3;
+  /* margin: 20px 0; */
 }
 .original-price-label{
   color: #fff;
@@ -703,9 +704,9 @@ article {
   color: #fff;
   margin-bottom: 40px;
   text-align: justify;
-  line-height: 1.2;
+  line-height: 1.3;
   font-size: 18px;
-  /* max-height: 200px; */
+  max-height:400px;
   overflow: auto;
 }
 details{
