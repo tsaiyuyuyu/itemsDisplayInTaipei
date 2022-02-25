@@ -922,6 +922,8 @@ input[type="password"],textarea{
   }
   footer .footer-menu .row {
     justify-content: space-between;
+
+    
   }
   footer .footer-menu li {
     font-size: 14px;
