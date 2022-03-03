@@ -706,7 +706,7 @@ article {
 .product-description-en{
   color: #fff;
   margin-bottom: 40px;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 1.3;
   font-size: 18px;
   max-height:400px;
