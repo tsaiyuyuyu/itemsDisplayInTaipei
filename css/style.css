@@ -759,6 +759,12 @@ details p{
   font-weight: 400;
   color: #B1B5B5;
 }
+.quantity{
+  display: block;
+}
+.Qty{
+  display: none;
+}
 #count {
   width: 30px;
   text-align: center;
@@ -921,10 +927,9 @@ input[type="password"],textarea{
     padding: 0;
   }
   footer .footer-menu .row {
-    justify-content: space-between;
-
-    
+    justify-content: space-between;    
   }
+
   footer .footer-menu li {
     font-size: 14px;
   }
@@ -942,6 +947,7 @@ input[type="password"],textarea{
   }
   .product-description {
     margin-bottom: 15px;
+    font-size: 16px;
     height: auto;
   }
   .title {
@@ -953,15 +959,20 @@ input[type="password"],textarea{
   .sale-big {
     font-size: 32px;
   }
-  .product-description {
-    font-size: 15.5px;
-  }
+
   .counter-buttonCart-box {
     margin-top: 30px;
   }
   .counter-buttonCart-box  label {
-    font-size: 12px;
     margin-right: 5px;
+  }
+  .quantity{
+    display: none;
+  }
+  .Qty{
+    display: block;
+    font-size: 16px;
+    /* letter-spacing: 1px; */
   }
   .border-line {
     width: 100%;
