@@ -244,19 +244,27 @@ nav{
   overflow: hidden;
   background-color: #6C58BC;
   padding-bottom:2px;
+  min-width: 100%;
 }
-.marquee:hover{
-    animation-play-state: paused;
-}
+
 .marquee p{
   white-space: nowrap;
   margin:0;
   color: #D4DBDB;
   font-size: 15px;
-  animation: left-to-right 40s linear -8s infinite;
-  -webkit-animation: left-to-right 40s linear -8s infinite;
-  -moz-animation: left-to-right 40s linear -8s infinite;
+  animation: left-to-right 30s linear -8s infinite;
+  -webkit-animation: left-to-right 30s linear -8s  infinite;
+  -moz-animation: left-to-right 30s linear -8s  infinite;
 }
+
+.marquee p:hover{
+  animation-play-state: paused;
+}
+
+.marquee p span:last-child {
+  animation-delay: 15s;
+}
+
 @-webkit-keyframes left-to-right{
   from{
     -webkit-transform: translateX(100%);
@@ -881,11 +889,11 @@ input[type="password"],textarea{
   .graphic-novel {
     width: 100%;
   }
-  .marquee p{
-    animation: left-to-right 15s linear -6s infinite;
-    -webkit-animation: left-to-right 15s linear -6s infinite;
-    -moz-animation: left-to-right 15s linear -6s infinite;
-  } 
+  /* .marquee p{
+    animation: left-to-right 25s linear infinite;
+    -webkit-animation: left-to-right 25s linear infinite;
+    -moz-animation: left-to-right 25s linear infinite;
+  }  */
 
   .hashtag,
   .chapter {
