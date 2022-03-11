@@ -1,7 +1,5 @@
 * {
-  /* color: #C8D2D2; */
   font-family: maple-web, source-han-sans-traditional, sans-serif, 微軟正黑體;
-  /* font-weight: 400; */
   font-style: normal;
   text-decoration: none;
   outline: none;
@@ -240,56 +238,61 @@ nav{
   }
 }
 /* 跑馬燈 */
-.marquee{
+.marquee-box{
   overflow: hidden;
   background-color: #6C58BC;
-  padding-bottom:2px;
-  min-width: 100%;
 }
-
-.marquee p{
+.marquee-text{
   white-space: nowrap;
-  margin:0;
+  display:inline-block;
+  margin-top:1px;
+  margin-bottom:1px;
   color: #D4DBDB;
   font-size: 15px;
-  animation: left-to-right 30s linear -8s infinite;
-  -webkit-animation: left-to-right 30s linear -8s  infinite;
-  -moz-animation: left-to-right 30s linear -8s  infinite;
+  position: relative;
+  left: 20px;
+  animation: right-to-left 40s linear -8s infinite;
+  -webkit-animation: right-to-left 40s linear -8s  infinite;
+  -moz-animation: right-to-left 40s linear -8s  infinite;
 }
 
-.marquee p:hover{
+.marquee-text:hover{
   animation-play-state: paused;
 }
 
-.marquee p span:last-child {
-  animation-delay: 15s;
-}
-
-@-webkit-keyframes left-to-right{
+@keyframes right-to-left{
   from{
-    -webkit-transform: translateX(100%);
+    margin-left: 100%;
+    transform: translateX(0%);
   }
   to{
-    -webkit-transform: translateX(-100%);
-  }
-}
-@-moz-keyframes left-to-right{
-  from{
-    -moz-transform: translateX(100%);
-  }
-  to{
-    -moz-transform: translateX(-100%);
-  }
-}
-
-@keyframes left-to-right{
-  from{
-    transform: translateX(100%);
-  }
-  to{
+    margin-left: 0;
     transform: translateX(-100%);
   }
 }
+
+@-webkit-keyframes right-to-left{
+  from{
+    margin-left: 100%;
+    transform: translateX(0%);
+  }
+  to{
+    margin-left: 0;
+    transform: translateX(-100%);
+  }
+}
+
+@-moz-keyframes right-to-left{
+  from{
+    margin-left: 100%;
+    transform: translateX(0%);
+  }
+  to{
+    margin-left: 0;
+    transform: translateX(-100%);
+  }
+}
+
 
 /* banner css */
 
@@ -889,11 +892,12 @@ input[type="password"],textarea{
   .graphic-novel {
     width: 100%;
   }
-  /* .marquee p{
-    animation: left-to-right 25s linear infinite;
-    -webkit-animation: left-to-right 25s linear infinite;
-    -moz-animation: left-to-right 25s linear infinite;
-  }  */
+
+  .marquee-text{
+    animation: right-to-left 30s linear -4s infinite;
+    -webkit-animation: right-to-left 30s linear -4s  infinite;
+    -moz-animation: right-to-left 30s linear -4s  infinite;
+  }
 
   .hashtag,
   .chapter {
