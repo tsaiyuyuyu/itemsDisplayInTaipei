@@ -245,6 +245,9 @@ nav{
   background-color: #6C58BC;
   padding-bottom:2px;
 }
+.marquee:hover{
+    animation-play-state: paused;
+}
 .marquee p{
   white-space: nowrap;
   margin:0;
@@ -878,6 +881,12 @@ input[type="password"],textarea{
   .graphic-novel {
     width: 100%;
   }
+  .marquee p{
+    animation: left-to-right 15s linear -6s infinite;
+    -webkit-animation: left-to-right 15s linear -6s infinite;
+    -moz-animation: left-to-right 15s linear -6s infinite;
+  } 
+
   .hashtag,
   .chapter {
     font-size: 15px;
