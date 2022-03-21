@@ -83,9 +83,7 @@ nav{
   position: relative;
   background-color: #000051;
 }
-.logo {
-  /* width: 250px; */
-}
+
 .logo img {
   vertical-align: middle;
   margin: 2px;
@@ -156,13 +154,14 @@ nav{
     display: none;
   }
   .logo{
+    width: 255px;
     margin: auto;
   }
   
   .hamburger {
     display: block;
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
   }
   
@@ -172,7 +171,7 @@ nav{
   }
   .icon-shop {
     position: absolute;
-    top: 2px;
+    top: 0;
     right: 0px;
     padding: 0;
   }
@@ -191,7 +190,7 @@ nav{
   }
   .topnav.responsive .hamburger {
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
   }
   .topnav.responsive .menu {
@@ -210,12 +209,12 @@ nav{
     padding:15px 8px;
   }
   .logo {
-    width: 110px;
+    width: 120px;
     margin: auto;
   }
   .hamburger{
     display: block;
-    top:0;
+    top:2px;
   }
   .hamburger div {
     height: 2px;
@@ -224,7 +223,7 @@ nav{
 
   .icon-shop {
     position: absolute;
-    top: 2px;
+    top: 4px;
     padding: 0;
   }
   .icon-shop > div {
@@ -236,7 +235,7 @@ nav{
     height: 11px;
   }
   .topnav.responsive .hamburger {
-    top: 0;   
+    top: 2px;   
   }
 }
 /* 跑馬燈 */
@@ -1075,10 +1074,7 @@ input[type="password"],textarea{
   #blog{
     padding: 0;
   }
-  .logo {
-    width: 300px;
-    margin: auto;
-  }
+
   .blog-box {
     padding: 10px 20px;
   }
@@ -1116,6 +1112,7 @@ input[type="password"],textarea{
   .button {
     font-size: 20px;
   }
+  
 
 }
 
