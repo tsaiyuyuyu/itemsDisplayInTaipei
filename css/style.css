@@ -474,6 +474,10 @@ nav{
   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
+.bottom-banner{
+  display: none;
+}
+
 @keyframes show-up{
   from{
     left: -130px;
@@ -1080,6 +1084,33 @@ input[type="password"],textarea{
     font-size: 16px;
   }
 
+}
+/* 手機橫向 */
+@media screen and (max-width: 896px) and (orientation:landscape) {
+  .side-banner{
+    display: none;
+  }
+  .bottom-banner{
+    width: 280px;
+    position: fixed;
+    bottom:-290px;
+    z-index: 99;
+    animation-name: bottom-show-up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+   @keyframes bottom-show-up{
+    from{
+      bottom: -290px;
+    }
+    to{
+      bottom: -10px;
+    }
+  }
+  
 }
 
 /* 平板直式 */
