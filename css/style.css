@@ -1111,6 +1111,9 @@ input[type="password"],textarea{
       bottom: -10px;
     }
   }
+  #secondHand .column{
+    width: 50%;
+  }
   
 }
 
