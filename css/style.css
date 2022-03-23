@@ -1091,6 +1091,7 @@ input[type="password"],textarea{
     display: none;
   }
   .bottom-banner{
+    display: block;
     width: 280px;
     position: fixed;
     bottom:-290px;
