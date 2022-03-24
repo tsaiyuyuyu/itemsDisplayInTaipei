@@ -932,6 +932,9 @@ input[type="password"],textarea{
   font-size: 15px;
 }
 /* sale */
+#sale{
+  background-color:#534BAE;
+}
 .sale-banner{
   z-index: 2;
   background-color: #534BAE;
@@ -942,7 +945,49 @@ input[type="password"],textarea{
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: right top, left top;
-  background-color: #534BAE;
+}
+#sale .row{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sale .column {
+  width: 33%;
+}
+.sale-menu {
+  color: #BDB7FF;
+  text-align: center;
+  border-bottom: 2px solid #BDB7FF;
+}
+
+.sale-menu .row .column{
+  padding:10px 0;
+}
+
+.line-hover:hover{
+  background-color:#1A237E;
+  color:#FFA3FF ;
+}
+
+.oval{
+  width: 300px;
+  border: 2px solid #FFA3FF;
+  border-radius: 50%;
+  padding: 10px 30px;
+  text-align: center;
+  margin:35px auto;
+}
+.sale-title{
+  color:#FFA3FF;
+  font-weight: 500;
+}
+#sale .chapter, #sale .price-container{
+  text-align: center
+}
+#sale .button{
+  width: 85%;
+  margin-top: 15px;
 }
 
 /* 手機直式、橫式 */
@@ -964,7 +1009,8 @@ input[type="password"],textarea{
   #productInfo .row .column,
   footer > .row > .column,
   .graphic-novel,
-  #about .column {
+  #about .column,
+  #sale .column {
     width: 100%;
   }
   .purpel{
@@ -1107,6 +1153,15 @@ input[type="password"],textarea{
   .sale-background{
     background-size:15px;
   }
+  .sale-menu {
+    border-bottom: none;
+  }
+  .sale-menu .row .column{
+    border-bottom:2px solid #BDB7FF;
+  }
+  .oval{
+    width: 250px;
+    padding: 5px 15px;
 
 }
 /* 手機橫向 */
