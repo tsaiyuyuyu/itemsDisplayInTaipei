@@ -478,9 +478,6 @@ nav{
   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
-.bottom-banner{
-  display: none;
-}
 
 @keyframes show-up{
   from{
@@ -490,6 +487,32 @@ nav{
     left: 0;
   }
 }
+
+.bottom-banner{
+  display: none;
+}
+
+.bottom-banner-en{
+  width: 330px;
+  position: fixed;
+  bottom:-220px;
+  z-index: 99;
+  animation-name: bottom-show-up-en;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottom-show-up-en{
+  from{
+    bottom: -220px;
+  }
+  to{
+    bottom: -10px;
+  }
+}
+
 .fake-cancel{
   position: absolute;
   top:-5px;
@@ -983,6 +1006,26 @@ input[type="password"],textarea{
     position: absolute;
     bottom: 0;
   }
+  .bottom-banner-en{
+    width: 250px;
+    position: fixed;
+    bottom:-160px;
+    z-index: 99;
+    animation-name: bottom-show-up-en;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes bottom-show-up-en{
+    from{
+      bottom: -160px;
+    }
+    to{
+      bottom: -10px;
+    }
+  }
   .chapter,
   .price-container {
     padding: 0 2%;
@@ -1096,9 +1139,9 @@ input[type="password"],textarea{
   }
   .bottom-banner{
     display: block;
-    width: 280px;
+    width: 260px;
     position: fixed;
-    bottom:-290px;
+    bottom:-190px;
     z-index: 99;
     animation-name: bottom-show-up;
     animation-duration: 2s;
@@ -1109,12 +1152,13 @@ input[type="password"],textarea{
   
    @keyframes bottom-show-up{
     from{
-      bottom: -290px;
+      bottom: -190px;
     }
     to{
       bottom: -10px;
     }
   }
+  
   #secondHand .column{
     width: 50%;
   }
