@@ -492,26 +492,6 @@ nav{
   display: none;
 }
 
-.bottom-banner-en{
-  width: 330px;
-  position: fixed;
-  bottom:-220px;
-  z-index: 99;
-  animation-name: bottom-show-up-en;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes bottom-show-up-en{
-  from{
-    bottom: -220px;
-  }
-  to{
-    bottom: -10px;
-  }
-}
 
 .fake-cancel{
   position: absolute;
@@ -955,10 +935,11 @@ input[type="password"],textarea{
 .sale-banner{
   z-index: 2;
   background-color: #534BAE;
+  width: 100%;
 }
 .sale-background{
   background-image: url(../img/bg_sale.png), url(../img/bg_sale.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: right top, left top;
   background-color: #534BAE;
@@ -1018,26 +999,7 @@ input[type="password"],textarea{
     position: absolute;
     bottom: 0;
   }
-  .bottom-banner-en{
-    width: 250px;
-    position: fixed;
-    bottom:-160px;
-    z-index: 99;
-    animation-name: bottom-show-up-en;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes bottom-show-up-en{
-    from{
-      bottom: -160px;
-    }
-    to{
-      bottom: -10px;
-    }
-  }
+
   .chapter,
   .price-container {
     padding: 0 2%;
@@ -1141,6 +1103,9 @@ input[type="password"],textarea{
   }
   .about-content{
     font-size: 16px;
+  }
+  .sale-background{
+    background-size:15px;
   }
 
 }
