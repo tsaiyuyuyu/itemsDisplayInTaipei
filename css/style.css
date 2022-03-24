@@ -1162,8 +1162,9 @@ input[type="password"],textarea{
   .oval{
     width: 250px;
     padding: 5px 15px;
-
+  }
 }
+
 /* 手機橫向 */
 @media screen and (max-width: 896px) and (orientation:landscape) {
   .side-banner{
@@ -1246,8 +1247,6 @@ input[type="password"],textarea{
   #about .column:last-child{
     padding-left: 0;
   }
-  
-
 }
 
 /* 平板橫式 */
