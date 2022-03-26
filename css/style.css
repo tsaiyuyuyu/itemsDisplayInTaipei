@@ -980,7 +980,7 @@ input[type="password"],textarea{
   color:#30388A ;
 }
 #homeDécor{
-  background-color: #2A5BBC;
+  background-color: #2D62CC;
 }
 
 .sale-title{
@@ -1010,8 +1010,11 @@ input[type="password"],textarea{
   /* .container滿版  */
   #blog,
   .container #myTopnav,
-  #homeProduct {
+  #homeProduct{
     padding: 0;
+  }
+  #saleMenu{
+    padding: 0 !important;
   }
   #homeProduct .column,
   #needProduct .column {
@@ -1165,9 +1168,12 @@ input[type="password"],textarea{
   .sale-background{
     background-size:12px;
   }
-.sale-title{
-  font-size: 38px;
-}
+  .sale-menu{
+    justify-content: space-between;
+  }
+  .sale-title{
+    font-size: 36px;
+  }
 
 }
 
