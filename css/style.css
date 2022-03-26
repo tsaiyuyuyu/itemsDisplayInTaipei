@@ -963,16 +963,14 @@ input[type="password"],textarea{
   border-bottom: 2px solid #BDB7FF;
   display: flex;
   justify-content: space-around;
+  background-color: #534BAE;
 }
 
 .sale-menu a{
   padding:10px 0;
   width: 33.3%;
 }
-/* .sale-menu a:visited{
-  background-color:#BDB7FF;
-  color:#30388A ;
-} */
+
 .sale-menu a:link{
   background-color: #534BAE;
   color: #BDB7FF;
@@ -981,18 +979,16 @@ input[type="password"],textarea{
   background-color:#BDB7FF;
   color:#30388A ;
 }
-
-.oval{
-  width: 300px;
-  border: 2px solid #FFA3FF;
-  border-radius: 50%;
-  padding: 10px 30px;
-  text-align: center;
-  margin:35px auto;
+#homeDécor{
+  background-color: #2A5BBC;
 }
+
 .sale-title{
   color:#FFA3FF;
   font-weight: 500;
+  font-size: 52px;
+  margin: 0;
+  padding: 5%;
 }
 #sale .chapter, #sale .price-container{
   text-align: center
@@ -1000,6 +996,10 @@ input[type="password"],textarea{
 #sale .button{
   width: 85%;
   margin-top: 15px;
+}
+.twentyFour{
+  width: 150px;
+  margin:20px auto;
 }
 
 /* 手機直式、橫式 */
@@ -1163,13 +1163,12 @@ input[type="password"],textarea{
     font-size: 16px;
   }
   .sale-background{
-    background-size:15px;
+    background-size:12px;
   }
+.sale-title{
+  font-size: 38px;
+}
 
-  .oval{
-    width: 250px;
-    padding: 5px 15px;
-  }
 }
 
 /* 手機橫向 */
