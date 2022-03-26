@@ -125,6 +125,8 @@ $(".jq-goTop").click(function (e) {
   );
 });
 
+//Sticky Navbar on Sale Page
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
