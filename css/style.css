@@ -935,6 +935,9 @@ input[type="password"],textarea{
 #sale{
   background-color:#534BAE;
 }
+#sale .container{
+  padding-top: 15px;
+}
 .sale-banner{
   z-index: 2;
   background-color: #534BAE;
@@ -970,6 +973,12 @@ input[type="password"],textarea{
   padding:10px 0;
   width: 33.3%;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
 
 .sale-menu a:link{
   background-color: #534BAE;
@@ -987,15 +996,15 @@ input[type="password"],textarea{
   color:#FFA3FF;
   font-weight: 500;
   font-size: 52px;
+  padding:30px 5% 20px 5%;
   margin: 0;
-  padding: 30px 5%;
 }
 #sale .chapter, #sale .price-container{
   text-align: center;
 }
 #sale .button{
   width: 85%;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 .twentyFour{
   width: 150px;
@@ -1164,6 +1173,9 @@ input[type="password"],textarea{
   }
   .about-content{
     font-size: 16px;
+  }
+  #sale .container{
+    padding-top: 20px;
   }
   .sale-background{
     background-size:12px;
