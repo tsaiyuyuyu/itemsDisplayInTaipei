@@ -831,7 +831,7 @@ details p{
 }
 .button:active {
   border: 2px solid #FC6FF0;
-  background-color: #30388A;
+  background-color: transparent;
   color: #FC6FF0;
   border-radius: 50px;
 }
