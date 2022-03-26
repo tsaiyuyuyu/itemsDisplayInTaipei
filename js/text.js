@@ -114,30 +114,12 @@ function showMessage() {
   }
 }
 
-//回頂端，還是不靈
-$(".jq-goTop").click(function (e) {
-  e.preventDefault();
-  $("html,body").animate(
-    {
-      scrollTop: 0,
-    },
-    800
-  );
-});
 
 //Sticky Navbar on Sale Page
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
+window.onscroll = function() {stickyNav()};
 var navbar = document.getElementById("saleMenu");
-
-// Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function stickyNav() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
