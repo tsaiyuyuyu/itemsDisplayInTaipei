@@ -948,7 +948,7 @@ input[type="password"],textarea{
 }
 #sale .row{
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -980,7 +980,7 @@ input[type="password"],textarea{
   color:#30388A ;
 }
 #homeDécor{
-  background-color: #3769CC;
+  background-color: #4560CC;
 }
 
 .sale-title{
@@ -988,10 +988,10 @@ input[type="password"],textarea{
   font-weight: 500;
   font-size: 52px;
   margin: 0;
-  padding: 5%;
+  padding: 30px 5%;
 }
 #sale .chapter, #sale .price-container{
-  text-align: center
+  text-align: center;
 }
 #sale .button{
   width: 85%;
@@ -1258,6 +1258,9 @@ input[type="password"],textarea{
   }
   #about .column:last-child{
     padding-left: 0;
+  }
+  .sale-background{
+    background-size:15px;
   }
 }
 
