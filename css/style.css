@@ -307,10 +307,17 @@ nav{
 }
 
 /* 左右邊fixed */
+.top{
+  width: 45px;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  z-index: 99;
+}
 .message{
   width: 60px;
   position: fixed;
-  right: 27px;
+  right: 24px;
   bottom: 90px;
   z-index: 99;
 }
@@ -318,7 +325,7 @@ nav{
   width: 350px;
   background-color: #fff;
   position: fixed;
-  right: 27px;
+  right: 24px;
   bottom: 170px;
   z-index: 100;
   border-radius: 15px;
@@ -455,14 +462,6 @@ nav{
   padding: 5px 15px;
   color: #535353;
   border: 0px;
-}
-
-.top{
-  width: 45px;
-  position: fixed;
-  bottom: 25px;
-  right: 33px;
-  z-index: 99;
 }
 
 .side-banner{
@@ -1013,8 +1012,8 @@ input[type="password"],textarea{
 .sale-top{
   width: 45px;
   position: fixed;
-  bottom: 25px;
-  right: 30px;
+  bottom: 30px;
+  right: 35px;
   z-index: 99;
 }
 
@@ -1193,6 +1192,13 @@ input[type="password"],textarea{
   }
   .sale-title{
     font-size: 32px;
+  }
+  .sale-top{
+    width: 45px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
   }
 
 }
