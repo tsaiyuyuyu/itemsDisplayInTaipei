@@ -1158,6 +1158,12 @@ input[type="password"],textarea{
     padding: 0;
     width: 33%;
   }
+  footer .footer-menu .column li:nth-child(2){
+    text-align: center;
+  }
+  footer .footer-menu .column li:nth-child(3){
+    text-align: right;
+  }
 
   .language{
     font-size: 14px;
@@ -1173,6 +1179,7 @@ input[type="password"],textarea{
   .copyright {
     font-size: 12px;
     text-align: left;
+    padding:15px 2%;
   }
   #productInfo img{
     margin-top: 20px;
@@ -1348,6 +1355,12 @@ input[type="password"],textarea{
     padding: 0;
     width: 33%;
   }
+  footer .footer-menu .column li:nth-child(2){
+    text-align: center;
+  }
+  footer .footer-menu .column li:nth-child(3){
+    text-align: right;
+  }
 
   .language{
     font-size: 14px;
@@ -1363,6 +1376,7 @@ input[type="password"],textarea{
   .copyright {
     font-size: 12px;
     text-align: left;
+    padding: 15px 2%;
   }
   .graphic-novel{
     width: 100%;
