@@ -57,7 +57,9 @@
                 <div class="menu">
                     <ul>
                         <li>最新商品</li>
-                        <a href="./sale.html"><li>優惠專區</li></a> 
+                        <a href="./sale.html">
+                            <li>優惠專區</li>
+                        </a>
                         <li>生活日用</li>
                         <li>療癒舒壓</li>
                         <li>安全防護</li>
@@ -366,42 +368,48 @@
     </section>
 
     <footer>
-        <div class="container row">
-            <div class="icon-sns column">
-                <div class="normal-hover">
-                    <img src="./img/icon_footer_ig.svg" alt="instagram" />
+        <div class="container">
+            <div class="row">
+                <div class="icon-sns column">
+                    <div class="normal-hover">
+                        <img src="./img/icon_footer_ig.svg" alt="instagram" />
+                    </div>
+                    <div class="normal-hover">
+                        <img src="./img/icon_footer_fb.svg" alt="facebook" />
+                    </div>
+                    <div class="normal-hover">
+                        <img src="./img/icon_footer_line.svg" alt="line" />
+                    </div>
                 </div>
-                <div class="normal-hover">
-                    <img src="./img/icon_footer_fb.svg" alt="facebook" />
+
+                <div class="footer-menu column">
+                    <div class="footer-menu-container">
+                        <div class="row">
+                            <ul class="column">
+                                <li class="normal-hover"><a href="./about.html"></a>品牌理念 </a></li>
+                                <li class="normal-hover"><a href="https://tsaiyuyu.cargo.site/"
+                                        target="_blank"></a>聯繫我們</a></li>
+                                <li class="normal-hover">顧客服務</li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <ul class="column">
+                                <li class="normal-hover">常見問題</li>
+                                <li class="normal-hover">配送及退換貨</li>
+                                <li class="normal-hover">隱私權政策</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="normal-hover">
-                    <img src="./img/icon_footer_line.svg" alt="line" />
+
+                <div class="language column">
+                    <div onclick="$('#jq-multilang-enabled').jqmultilang('zh-tw');">中文</div>
+                    <span>/</span>
+                    <div onclick="$('#jq-multilang-enabled').jqmultilang('en');">En</div>
                 </div>
             </div>
-
-            <div class="footer-menu column">
-                <ul class="row">
-                    <a href="./about.html">
-                        <li class="column normal-hover">品牌理念</li>
-                    </a>
-                    <a href="https://tsaiyuyu.cargo.site/" target="_blank">
-                        <li class="column normal-hover">聯繫我們</li>
-                    </a>
-                    <li class="column normal-hover">顧客服務</li>
-                </ul>
-                <ul class="row">
-                    <li class="column normal-hover">常見問題</li>
-                    <li class="column normal-hover">配送及退換貨</li>
-                    <li class="column normal-hover">隱私權政策</li>
-                </ul>
-
-            </div>
-            <!-- <div class="language">
-                <div onclick="$('#jq-multilang-enabled').jqmultilang('en');">En</div>
-                <div onclick="$('#jq-multilang-enabled').jqmultilang('zh-tw');">Tw</div>
-            </div> -->
-            <div class="copyright column">© 2022 台北室物</div>
         </div>
+        <div class="copyright">© 2022 台北室物 All Rights Reserved.</div>
     </footer>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

@@ -640,7 +640,10 @@ footer {
   background-color: #000;
   padding:10px 2%;
 }
-footer > .row {
+footer > .container{
+  border-bottom: 2px solid #3E4141;
+}
+footer > .container > .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -653,23 +656,38 @@ footer > .row {
   width: 30px;
   margin-right: 10px;
 }
-footer .footer-menu,
-footer .footer-menu .row {
+footer .footer-menu-container{
   display: flex;
-  padding: 0 2px;
+  width: 100%;
+}
+
+footer .footer-menu-container .column {
+  display: flex;
+  padding: 0;
   margin: 10px 0;
 }
 .footer-menu li {
   list-style-type: none;
-  padding: 2px 10px;
+  padding: 0 15px 10px 15px;
   color: #B1B5B5;
   text-decoration: none;
   font-size: 16px;
 }
 .copyright {
   color: #B1B5B5;
-  font-size: 16px;
-  padding: 12px;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px;
+}
+
+.language{
+  display: flex;
+  align-items: flex-end;
+  color:#B1B5B5; 
+  margin-bottom: 5px;
+}
+.language div{
+  padding: 0 5px;
 }
 
 /* 商品頁 */
@@ -1107,22 +1125,35 @@ input[type="password"],textarea{
   footer .container {
     padding: 0 2%;
   }
-  footer > .row {
+  footer > .container > .row {
     display: block;
   }
-  footer .footer-menu {
-    display: inline;
-    padding: 0;
+  footer .footer-menu-container{
+    display: block;
+    width: 100%;
   }
-  footer .footer-menu .row {
-    justify-content: space-between;    
+  footer .footer-menu-container .row {
+    width: 100%;
+    display: block;
   }
 
-  footer .footer-menu li {
+  footer .footer-menu-container .column {
+    padding: 0; 
+    width: 100%;
+  }
+
+  footer .footer-menu .column li{
+    font-size: 14px;
+    padding: 0;
+    width: 33%;
+  }
+
+  .language{
     font-size: 14px;
   }
   .copyright {
-    font-size: 14px;
+    padding: 10px;
+    font-size: 12px;
   }
   #productInfo img{
     margin-top: 20px;
