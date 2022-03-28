@@ -652,7 +652,7 @@ footer > .container > .row {
   display: flex;
   padding: 10px;
 }
-.icon-sns div {
+.icon-sns div img{
   width: 30px;
   margin-right: 10px;
 }
@@ -684,10 +684,14 @@ footer .footer-menu-container .column {
   display: flex;
   align-items: flex-end;
   color:#B1B5B5; 
-  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
+
 .language div{
   padding: 0 5px;
+}
+.icon-sns .language-box{
+  display: none;
 }
 
 /* 商品頁 */
@@ -1122,11 +1126,16 @@ input[type="password"],textarea{
   .date {
     font-size: 13px;
   }
-  footer .container {
+  footer >.container {
     padding: 0 2%;
+    border-bottom:0 ;
   }
   footer > .container > .row {
     display: block;
+  }
+  .icon-sns{
+    border-bottom: 2px solid #3E4141;
+    padding: 5px 5px 5px 0;
   }
   footer .footer-menu-container{
     display: block;
@@ -1135,11 +1144,13 @@ input[type="password"],textarea{
   footer .footer-menu-container .row {
     width: 100%;
     display: block;
+    border-bottom: 2px solid #3E4141;
   }
 
   footer .footer-menu-container .column {
-    padding: 0; 
+    margin: 15px 0;
     width: 100%;
+    align-items: center;
   }
 
   footer .footer-menu .column li{
@@ -1151,9 +1162,17 @@ input[type="password"],textarea{
   .language{
     font-size: 14px;
   }
+  .icon-sns .language-box{
+    display:block;
+    position: absolute;
+    right: 3%;
+  }
+  footer > .container > .row >.language-box{
+    display: none;
+  }
   .copyright {
-    padding: 10px;
     font-size: 12px;
+    text-align: left;
   }
   #productInfo img{
     margin-top: 20px;
@@ -1298,21 +1317,57 @@ input[type="password"],textarea{
   #about .column {
     width: 100%;
   }
- 
-  .graphic-novel,
-  footer > .row > .column {
-    width: 100%;
+  footer >.container {
+    padding: 0 2%;
+    border-bottom:0 ;
   }
-  footer > .row {
+  footer > .container > .row {
     display: block;
   }
-  footer .footer-menu {
-    display: inline;
+  .icon-sns{
+    border-bottom: 2px solid #3E4141;
+    padding: 5px 5px 5px 0;
+  }
+  footer .footer-menu-container{
+    display: block;
+    width: 100%;
+  }
+  footer .footer-menu-container .row {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #3E4141;
+  }
+
+  footer .footer-menu-container .column {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  footer .footer-menu .column li{
+    font-size: 14px;
     padding: 0;
+    width: 33%;
   }
-  footer .footer-menu .row {
-    justify-content: space-between;
+
+  .language{
+    font-size: 14px;
   }
+  .icon-sns .language-box{
+    display:block;
+    position: absolute;
+    right: 3%;
+  }
+  footer > .container > .row >.language-box{
+    display: none;
+  }
+  .copyright {
+    font-size: 12px;
+    text-align: left;
+  }
+  .graphic-novel{
+    width: 100%;
+  }
+ 
   .product-description {
     margin-bottom: 20px;
   }
