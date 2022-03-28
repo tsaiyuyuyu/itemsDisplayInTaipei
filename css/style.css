@@ -1067,7 +1067,7 @@ input[type="password"],textarea{
   .message{
     width: 50px;
     right: 20px;
-    bottom: 75px;
+    bottom: 77px;
   }
   .chatbox{
     width: 100%;
@@ -1206,7 +1206,7 @@ input[type="password"],textarea{
   }
   .sale-top{
     text-align: right;
-    padding: 0 30px 25px 0; 
+    padding: 0 25px 25px 0; 
   }
   .sale-top img{
     width: 37px;
@@ -1296,6 +1296,9 @@ input[type="password"],textarea{
   }
   .sale-background{
     background-size:15px;
+  }
+  .sale-title{
+    font-size: 46px;
   }
 }
 
