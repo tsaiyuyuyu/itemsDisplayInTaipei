@@ -104,6 +104,7 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
+
 // 點message
 function showMessage() {
   var x = document.getElementById("chatbox");

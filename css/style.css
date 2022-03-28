@@ -1158,11 +1158,9 @@ input[type="password"],textarea{
     padding: 0;
     width: 33%;
   }
-  footer .footer-menu .column li:nth-child(2){
-    text-align: center;
-  }
+  
   footer .footer-menu .column li:nth-child(3){
-    text-align: right;
+    padding-left: 10px;
   }
 
   .language{
@@ -1355,11 +1353,8 @@ input[type="password"],textarea{
     padding: 0;
     width: 33%;
   }
-  footer .footer-menu .column li:nth-child(2){
-    text-align: center;
-  }
   footer .footer-menu .column li:nth-child(3){
-    text-align: right;
+    padding-left: 10px;
   }
 
   .language{
