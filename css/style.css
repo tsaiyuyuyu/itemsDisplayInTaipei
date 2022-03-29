@@ -638,7 +638,7 @@ nav{
 /* footer css */
 footer {
   background-color: #000;
-  padding:10px 2%;
+  padding:5px 2%;
 }
 footer > .container{
   border-bottom: 2px solid #3E4141;
@@ -648,13 +648,12 @@ footer > .container > .row {
   align-items: center;
   justify-content: space-between;
 }
-.icon-sns {
+.icon-sns-box {
   display: flex;
-  padding: 10px;
 }
 .icon-sns div img{
   width: 30px;
-  margin-right: 10px;
+  margin-right: 3px;
 }
 footer .footer-menu-container{
   display: flex;
@@ -663,12 +662,12 @@ footer .footer-menu-container{
 
 footer .footer-menu-container .column {
   display: flex;
-  padding: 0;
-  margin: 10px 0;
+  padding: 15px 0 20px 0;
+  margin: 0;
 }
 .footer-menu li {
   list-style-type: none;
-  padding: 0 15px 10px 15px;
+  padding-right: 30px;
   color: #B1B5B5;
   text-decoration: none;
   font-size: 16px;
@@ -677,18 +676,18 @@ footer .footer-menu-container .column {
   color: #B1B5B5;
   font-size: 14px;
   text-align: center;
-  padding: 15px;
+  padding: 20px 0 15px 0;
 }
 
 .language{
   display: flex;
   align-items: flex-end;
   color:#B1B5B5; 
-  padding-bottom: 10px;
+  font-size: 14px;
 }
 
-.language div{
-  padding: 0 5px;
+.language span{
+  padding:0 5px;
 }
 .icon-sns .language-box{
   display: none;
@@ -1020,7 +1019,7 @@ input[type="password"],textarea{
   padding:30px 5% 20px 5%;
   margin: 0;
 }
-#sale .chapter, #sale .price-container{
+#sale .product-box{
   text-align: center;
 }
 #sale .button{
@@ -1135,8 +1134,9 @@ input[type="password"],textarea{
   }
   .icon-sns{
     border-bottom: 2px solid #3E4141;
-    padding: 5px 5px 5px 0;
+    padding: 10px 0;
   }
+  
   footer .footer-menu-container{
     display: block;
     width: 100%;
@@ -1148,28 +1148,30 @@ input[type="password"],textarea{
   }
 
   footer .footer-menu-container .column {
-    margin: 15px 0;
     width: 100%;
     align-items: center;
+    padding: 18px 0;
   }
 
   footer .footer-menu .column li{
     font-size: 14px;
     padding: 0;
-    width: 33%;
-  }
-  
-  footer .footer-menu .column li:nth-child(3){
-    padding-left: 10px;
+    width: 50%;
   }
 
   .language{
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .icon-sns{
+    display: flex;
+    align-items: center;
+  }
+  .icon-sns-box{
+    width: 50%;
   }
   .icon-sns .language-box{
-    display:block;
-    position: absolute;
-    right: 3%;
+   display: block;
+   width: 50%;
   }
   footer > .container > .row >.language-box{
     display: none;
@@ -1177,7 +1179,7 @@ input[type="password"],textarea{
   .copyright {
     font-size: 12px;
     text-align: left;
-    padding:15px 2%;
+    padding:19px 2%;
   }
   #productInfo img{
     margin-top: 20px;
@@ -1331,8 +1333,9 @@ input[type="password"],textarea{
   }
   .icon-sns{
     border-bottom: 2px solid #3E4141;
-    padding: 5px 5px 5px 0;
+    padding: 10px 0;
   }
+  
   footer .footer-menu-container{
     display: block;
     width: 100%;
@@ -1344,26 +1347,30 @@ input[type="password"],textarea{
   }
 
   footer .footer-menu-container .column {
-    margin: 15px 0;
     width: 100%;
+    align-items: center;
+    padding: 17px 0;
   }
 
   footer .footer-menu .column li{
     font-size: 14px;
     padding: 0;
-    width: 33%;
-  }
-  footer .footer-menu .column li:nth-child(3){
-    padding-left: 10px;
+    width: 50%;
   }
 
   .language{
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .icon-sns{
+    display: flex;
+    align-items: center;
+  }
+  .icon-sns-box{
+    width: 50%;
   }
   .icon-sns .language-box{
-    display:block;
-    position: absolute;
-    right: 3%;
+   display: block;
+   width: 50%;
   }
   footer > .container > .row >.language-box{
     display: none;
@@ -1371,10 +1378,12 @@ input[type="password"],textarea{
   .copyright {
     font-size: 12px;
     text-align: left;
-    padding: 15px 2%;
+    padding:19px 2%;
   }
+  
   .graphic-novel{
     width: 100%;
+    text-align: center;
   }
  
   .product-description {
