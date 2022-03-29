@@ -1151,11 +1151,10 @@ input[type="password"],textarea{
   footer .footer-menu-container .column {
     width: 100%;
     align-items: center;
-    padding: 18px 0;
+    padding: 17px 0;
   }
 
   footer .footer-menu .column li{
-    font-size: 14px;
     padding: 0;
     width: 50%;
   }
