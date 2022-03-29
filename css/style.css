@@ -986,6 +986,7 @@ input[type="password"],textarea{
   border-bottom: 2px solid #BDB7FF;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #534BAE;
 }
 
@@ -1018,7 +1019,11 @@ input[type="password"],textarea{
   font-size: 52px;
   padding:30px 5% 20px 5%;
   margin: 0;
+  width: 66%;
 }
+.sale-title-en{
+  font-size: 42px;
+ } 
 #sale .product-box{
   text-align: center;
 }
@@ -1260,6 +1265,7 @@ input[type="password"],textarea{
   }
   .sale-title{
     font-size: 32px;
+    width: 100%;
   }
 
 }
