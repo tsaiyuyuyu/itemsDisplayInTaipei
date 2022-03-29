@@ -1028,15 +1028,16 @@ input[type="password"],textarea{
 }
 .twentyFour{
   width: 150px;
-  margin:20px auto;
+  margin:0 auto;
+  padding-bottom: 50px;
 }
 .sale-top{
-  text-align: right;
-  padding: 0 5% 25px 0; 
-}
-.sale-top img{
   width: 45px;
-} 
+  position: fixed;
+  bottom: 25px;
+  right: 50px;
+  z-index: 99;
+}
 
 
 /* 手機直式、橫式 */
@@ -1080,7 +1081,7 @@ input[type="password"],textarea{
     font-size: 15px;
   }
 
-  .top{
+  .top, .sale-top{
     width: 37px;
     bottom: 25px;
     right: 25px;
@@ -1260,13 +1261,6 @@ input[type="password"],textarea{
   }
   .sale-title{
     font-size: 32px;
-  }
-  .sale-top{
-    text-align: right;
-    padding: 0 25px 25px 0; 
-  }
-  .sale-top img{
-    width: 37px;
   }
 
 }
