@@ -985,7 +985,7 @@ input[type="password"],textarea{
 }
 
 .sale-menu {
-  color: #BDB7FF;
+  color: #d1cbff;
   text-align: center;
   border-bottom: 2px solid #BDB7FF;
   display: flex;
@@ -1007,7 +1007,7 @@ input[type="password"],textarea{
 
 .sale-menu a:link{
   background-color: #534BAE;
-  color: #BDB7FF;
+  color: #d1cbff;
 }
 .sale-menu a:hover{
   background-color:#BDB7FF;
@@ -1031,6 +1031,14 @@ input[type="password"],textarea{
  } 
 #sale .product-box{
   text-align: center;
+}
+.sale-product-title{
+  padding: 0 4%;
+  margin: 5px 0;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 #sale .button{
   width: 85%;
@@ -1277,6 +1285,10 @@ input[type="password"],textarea{
   }
   .sale-title-en{
     font-size: 36px;
+  }
+  .sale-product-title{
+    font-size: 20px;
+    padding: 0 20px;
   }
 
 }
