@@ -622,16 +622,20 @@ nav{
   padding: 10px 2%;
 }
 .blog-title {
-  padding: 0 10px;
+  padding: 0 5px;
   font-size: 28px;
-  margin: 15px 0;
+  margin: 15px 0 8px 0;
   color: #fff;
   font-weight: 500;
+}
+.blog-title-en {
+  font-size: 26px;
+  line-height: 1.2;
 }
 .date {
   font-size: 14px;
   font-weight: 500;
-  padding: 0 10px;
+  padding: 0 5px;
   color: #BDB7FF;
 }
 
@@ -1128,6 +1132,9 @@ input[type="password"],textarea{
   }
   .blog-title {
     font-size: 26px;
+  }
+  .blog-title-en {
+    font-size: 21px;
   }
   .date {
     font-size: 13px;
