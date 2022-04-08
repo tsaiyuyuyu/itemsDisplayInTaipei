@@ -218,7 +218,7 @@ nav{
   }
   .hamburger{
     display: block;
-    top:2px;
+    top:3px;
   }
   .hamburger div {
     height: 2px;
@@ -227,7 +227,7 @@ nav{
 
   .icon-shop {
     position: absolute;
-    top: 4px;
+    top: 5px;
     padding: 0;
   }
   .icon-shop > div {
@@ -239,7 +239,7 @@ nav{
     height: 11px;
   }
   .topnav.responsive .hamburger {
-    top: 2px;   
+    top: 3px;   
   }
 }
 /* 跑馬燈 */
