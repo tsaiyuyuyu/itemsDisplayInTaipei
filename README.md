@@ -1,1 +1,1 @@
-Living in Taipei
+Items Display in Taipei
