@@ -921,7 +921,7 @@ input[type="password"],textarea{
 }
 /* About */
 #about{
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 #about .row {
   display: flex;
