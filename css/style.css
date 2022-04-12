@@ -28,12 +28,12 @@ a{
 }
 
 .container:not(#blog) {
-  max-width: 1920px;
+  max-width: 1280px;
   padding: 0 8%;
   margin: auto;
 }
 .blog .container {
-  max-width: 1920px;
+  max-width: 1280px;
   padding: 0 5%;
   margin: auto;
 }
@@ -967,6 +967,7 @@ input[type="password"],textarea{
   z-index: 2;
   background-color: #534BAE;
   width: 100%;
+  text-align: center;
 }
 .sale-background{
   background-image: url(../img/bg_sale.png), url(../img/bg_sale.png);
@@ -1004,6 +1005,8 @@ input[type="password"],textarea{
   top: 0;
   width: 100%;
   z-index: 3;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .sale-menu a:link{
@@ -1014,9 +1017,15 @@ input[type="password"],textarea{
   background-color:#BDB7FF;
   color:#30388A ;
 }
+/* #fragrance{
+  background-color: #5d53c5;
+} */
 #homeDécor{
   background-color: #4560CC;
 }
+/* #bedding{
+  background-color: #534BAE;
+} */
 
 .sale-title{
   color:#FFA3FF;
@@ -1441,4 +1450,12 @@ input[type="password"],textarea{
     height: auto;
     margin-bottom: 20px;
   }
+}
+
+/* 大螢幕 */
+@media screen and (min-width: 1281px) {
+  .sale-banner + .container{
+   max-width: none !important;
+   padding: 0 17% !important;
+ }
 }
