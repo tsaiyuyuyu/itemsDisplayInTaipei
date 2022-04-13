@@ -922,7 +922,7 @@ input[type="password"],textarea{
 }
 /* About */
 #about{
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 #about .row {
   display: flex;
@@ -940,6 +940,7 @@ input[type="password"],textarea{
 .about-content{
   color: #fff;
   margin-bottom: 40px;
+  margin-top: 37px;
   text-align: justify;
   line-height: 1.5;
   font-size: 20px;
@@ -952,10 +953,19 @@ input[type="password"],textarea{
   font-size: 18px;
 }
 .credt{
-  color: #BDB7FF;
+  color: #B1B5B5;
   line-height: 1.3;
   font-size: 15px;
 }
+.brandmind{
+  color:#FFA3FF;
+  font-weight: 500;
+  font-size: 46px;
+}
+.design-concept{
+  color: #fff;
+}
+
 /* sale */
 #sale{
   background-color:#534BAE;
@@ -1300,7 +1310,12 @@ input[type="password"],textarea{
     padding: 0 20px;
     font-size: 16px;
   }
-
+  .brandmind{
+    font-size: 26px;
+  }
+  .design-concept{
+    padding: 0 2%;
+  }
 }
 
 /* 手機橫向 */
