@@ -18,7 +18,7 @@ body {
   margin: 0;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   pointer-events: none; 
 }
@@ -28,12 +28,12 @@ a{
 }
 
 .container:not(#blog) {
-  max-width: 1280px;
+  max-width: 1920px;
   padding: 0 8%;
   margin: auto;
 }
 .blog .container {
-  max-width: 1280px;
+  max-width: 1920px;
   padding: 0 5%;
   margin: auto;
 }
@@ -620,8 +620,9 @@ nav{
   color: #C8D2D2;
 } 
 .blog-box {
-  padding: 10px 2%;
+  padding: 10px 20px;
 }
+
 .blog-title {
   padding: 0 5px;
   font-size: 28px;
@@ -930,6 +931,9 @@ input[type="password"],textarea{
   padding: 50px 0;
   align-items: flex-start;
 }
+#about .row:nth-of-type(2){
+  padding-top: 0;
+}
 
 #about .column{
   width: 50%;
@@ -966,6 +970,7 @@ input[type="password"],textarea{
 }
 .design-concept{
   color: #fff;
+  margin-top: 50px;
 }
 
 /* sale */
@@ -1029,15 +1034,11 @@ input[type="password"],textarea{
   background-color:#BDB7FF;
   color:#30388A ;
 }
-/* #fragrance{
-  background-color: #5d53c5;
-} */
+
 #homeDécor{
   background-color: #4560CC;
 }
-/* #bedding{
-  background-color: #534BAE;
-} */
+
 
 .sale-title{
   color:#FFA3FF;
@@ -1265,7 +1266,6 @@ input[type="password"],textarea{
   .Qty{
     display: block;
     font-size: 16px;
-    /* letter-spacing: 1px; */
   }
   .border-line {
     width: 100%;
@@ -1476,10 +1476,24 @@ input[type="password"],textarea{
   }
 }
 
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen 
+  and (min-device-width: 1180px) 
+  and (max-device-width: 1180px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .brandmind{
+      font-size: 40px;
+    }
+}
+
 /* 大螢幕 */
 @media screen and (min-width: 1281px) {
-  .sale-banner + .container{
-   max-width: none !important;
-   padding: 0 17% !important;
- }
+  .container:not(#blog) {
+    padding: 0 15%;
+  }
+  .blog .container {
+    padding: 0 13%;
+  }
 }
