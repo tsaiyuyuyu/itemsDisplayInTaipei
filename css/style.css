@@ -962,6 +962,7 @@ input[type="password"],textarea{
   color:#FFA3FF;
   font-weight: 500;
   font-size: 46px;
+  white-space: pre-line;
 }
 .design-concept{
   color: #fff;
@@ -1292,7 +1293,9 @@ input[type="password"],textarea{
     font-size: 16px;
   }
   .brandmind{
-    font-size: 26px;
+    font-size: 28px;
+    white-space: normal;
+    text-align: justify;
   }
   .design-concept{
     padding: 0 2%;
@@ -1445,6 +1448,11 @@ input[type="password"],textarea{
   }
   #about .column:last-child{
     padding-left: 0;
+  }
+  .brandmind{
+    font-size: 36px;
+    white-space: normal;
+    text-align: justify;
   }
   .sale-background{
     background-size:15px;
