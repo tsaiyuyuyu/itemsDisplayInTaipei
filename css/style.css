@@ -645,6 +645,7 @@ nav{
 footer {
   background-color: #000;
   padding:5px 2%;
+  width: 100%;
 }
 footer > .container{
   border-bottom: 2px solid #3E4141;
@@ -654,6 +655,7 @@ footer > .container > .row {
   align-items: center;
   justify-content: space-between;
 }
+
 .icon-sns-box {
   display: flex;
 }
@@ -876,9 +878,10 @@ details p{
 .login{
 text-align: center;
 margin: auto;
-padding-top: 80px;
+padding-top: 50px;
 padding-bottom: 150px;
-max-width: 400px; 
+max-width: 400px;
+background-color: #30388A;
 }
 .login h1{
   font-size: 36px;
@@ -1082,7 +1085,7 @@ input[type="password"],textarea{
 
 
 /* 手機直式、橫式 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px)   {
   .container:not(#blog, #myTopnav, #homeProduct) {
     padding: 0 2%;
   }
@@ -1324,6 +1327,7 @@ input[type="password"],textarea{
 
 /* 手機橫向 */
 @media screen and (max-width: 896px) and (orientation:landscape) {
+ 
   .side-banner{
     display: none;
   }
@@ -1356,7 +1360,8 @@ input[type="password"],textarea{
 }
 
 /* 平板直式 */
-@media screen and (min-width: 768px) and (max-width: 979px) {
+@media screen and (min-width: 768px) and (max-width: 979px) and (orientation:portrait) {
+
   .container:not(#blog) {
     padding: 0 2%;
   }
@@ -1426,6 +1431,7 @@ input[type="password"],textarea{
   footer > .container > .row >.language-box{
     display: none;
   }
+  
   .copyright {
     font-size: 12px;
     text-align: left;
@@ -1474,6 +1480,7 @@ input[type="password"],textarea{
     height: auto;
     margin-bottom: 20px;
   }
+
 }
 
 /* Landscape */
@@ -1486,14 +1493,22 @@ input[type="password"],textarea{
     .brandmind{
       font-size: 40px;
     }
+    
 }
 
 /* 大螢幕 */
 @media screen and (min-width: 1281px) {
+  html, body{
+    height: 100%;
+  }
   .container:not(#blog) {
     padding: 0 15%;
   }
   .blog .container {
     padding: 0 13%;
+  }
+  .footer-fixed{
+    position: absolute;
+    bottom: -50px;
   }
 }
