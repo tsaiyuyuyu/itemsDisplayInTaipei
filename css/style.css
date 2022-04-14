@@ -1297,8 +1297,12 @@ input[type="password"],textarea{
   }
   .brandmind{
     font-size: 28px;
+  }
+  .brandmind-disappear{
+    display: none;
+  }
+  .brandmind-no-pre{
     white-space: normal;
-    text-align: justify;
   }
   .design-concept{
     padding: 0 2%;
@@ -1360,7 +1364,7 @@ input[type="password"],textarea{
 }
 
 /* 平板直式 */
-@media screen and (min-width: 768px) and (max-width: 979px) and (orientation:portrait) {
+@media screen and (min-width: 768px) and (max-width: 979px) {
 
   .container:not(#blog) {
     padding: 0 2%;
@@ -1457,8 +1461,10 @@ input[type="password"],textarea{
   }
   .brandmind{
     font-size: 36px;
+  }
+ 
+  .brandmind-no-pre{
     white-space: normal;
-    text-align: justify;
   }
   .sale-background{
     background-size:15px;
@@ -1466,6 +1472,9 @@ input[type="password"],textarea{
   .sale-title{
     font-size: 46px;
   }
+  .login{
+    margin-bottom: 150px; 
+   }
 }
 
 /* 平板橫式 */
@@ -1479,6 +1488,9 @@ input[type="password"],textarea{
   .product-description{
     height: auto;
     margin-bottom: 20px;
+  }
+  .brandmind{
+    font-size: 36px;
   }
 
 }
@@ -1498,17 +1510,14 @@ input[type="password"],textarea{
 
 /* 大螢幕 */
 @media screen and (min-width: 1281px) {
-  html, body{
-    height: 100%;
-  }
+
   .container:not(#blog) {
     padding: 0 15%;
   }
   .blog .container {
     padding: 0 13%;
   }
-  .footer-fixed{
-    position: absolute;
-    bottom: -50px;
+  .login{
+   margin-bottom: 250px; 
   }
 }
