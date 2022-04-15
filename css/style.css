@@ -1239,7 +1239,7 @@ input[type="password"],textarea{
   }
   .product-description {
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 18px;
     height: auto;
     min-height:unset;
   }
@@ -1293,7 +1293,7 @@ input[type="password"],textarea{
     padding-left: 0;
   }
   .about-content{
-    font-size: 16px;
+    font-size: 18px;
   }
   .brandmind{
     font-size: 28px;
