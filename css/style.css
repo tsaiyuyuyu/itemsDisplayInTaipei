@@ -969,6 +969,9 @@ input[type="password"],textarea{
   font-size: 46px;
   white-space: pre-line;
 }
+.brandmind-en{
+ line-height: 1.3;
+}
 .design-concept{
   color: #fff;
   margin-top: 50px;
