@@ -971,6 +971,7 @@ input[type="password"],textarea{
 }
 .brandmind-en{
  line-height: 1.3;
+ white-space: normal;
 }
 .design-concept{
   color: #fff;
