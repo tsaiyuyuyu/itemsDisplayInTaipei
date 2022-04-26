@@ -1,5 +1,5 @@
 * {
-  font-family: maple-web, sans-serif, 微軟正黑體;
+  font-family: maple-web, sans-serif, 微軟正黑體, "Microsoft JhengHei";
   font-style: normal;
   text-decoration: none;
   outline: none;
@@ -755,7 +755,7 @@ article {
 }
 .sale-big {
   font-size: 32px;
-  font-weight: 500;
+  font-weight:500;
 }
 
 .product-description {
