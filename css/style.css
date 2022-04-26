@@ -629,6 +629,7 @@ nav{
   margin: 15px 0 8px 0;
   color: #fff;
   font-weight: 500;
+  line-height: 1.5;
 }
 .blog-title-en {
   font-size: 26px;
@@ -733,6 +734,7 @@ article {
   color: #fff;
   font-size: 36px;
   font-weight: 500;
+  line-height: 1.5;
 }
 .title-en{
   color: #fff;
@@ -968,6 +970,7 @@ input[type="password"],textarea{
   font-weight: 500;
   font-size: 46px;
   white-space: pre-line;
+  line-height: 1.5;
 }
 .brandmind-en{
  line-height: 1.3;
