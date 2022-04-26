@@ -962,18 +962,18 @@ input[type="password"],textarea{
 }
 .credt{
   color: #B1B5B5;
-  line-height: 1.3;
+  line-height: 1.2;
   font-size: 15px;
 }
 .brandmind{
   color:#FFA3FF;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 46px;
   white-space: pre-line;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .brandmind-en{
- line-height: 1.3;
+ line-height: 1.2;
  white-space: normal;
 }
 .design-concept{
