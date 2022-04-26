@@ -591,7 +591,7 @@ nav{
 
 /* 二手專區 css */
 .second-hand {
-  background-image: url(../img/bg_home_secondHand@2x.png);
+  background-image: url(../img/bg_home_secondHand@2x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0;
