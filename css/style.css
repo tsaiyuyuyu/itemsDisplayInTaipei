@@ -1,5 +1,5 @@
 * {
-  font-family: maple-web, sans-serif, 微軟正黑體, "Microsoft JhengHei";
+  font-family: maple-web, source-han-sans-traditional, sans-serif, "Microsoft JhengHei";
   font-style: normal;
   text-decoration: none;
   outline: none;
@@ -629,7 +629,7 @@ nav{
   margin: 15px 0 8px 0;
   color: #fff;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .blog-title-en {
   font-size: 26px;
@@ -734,7 +734,7 @@ article {
   color: #fff;
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .title-en{
   color: #fff;
@@ -967,7 +967,7 @@ input[type="password"],textarea{
 }
 .brandmind{
   color:#FFA3FF;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 46px;
   white-space: pre-line;
   line-height: 1.5;
@@ -1050,6 +1050,7 @@ input[type="password"],textarea{
 
 .sale-title{
   color:#FFA3FF;
+  line-height: 1.4;
   font-weight: 500;
   font-size: 48px;
   padding:30px 5% 20px 5%;
