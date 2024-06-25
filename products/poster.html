@@ -1,262 +1,334 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="台北室物 - 天龍國租屋族的生活雜貨" />
+    <meta property="og:title" content="台北室物 - 租屋族的生活雜貨" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/cyz5ker.css" />
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <!-- 思源黑體 -->
     <script>
-        (function (d) {
-            var config = {
-                kitId: 'poo0ujm',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
+      (function (d) {
+        var config = {
+            kitId: "poo0ujm",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
     </script>
     <title>台北室物</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="nav-fixed">
-            <div class="topnav container" id="myTopnav">
-                <div class="hamburger" onclick="myFunction()">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+      <nav class="nav-fixed">
+        <div class="topnav container" id="myTopnav">
+          <div class="hamburger" onclick="myFunction()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
 
-                <div class="logo">
-                    <a href="../index.html">
-                        <picture>
-                            <source media="(min-width: 480px)" srcset="../img/logo_header.svg" /><img
-                                src="../img/logo_header_mb.svg" alt="logo" />
-                        </picture>
-                    </a>
-                </div>
+          <div class="logo">
+            <a href="../index.html">
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="../img/logo_header.svg"
+                />
+                <img src="../img/logo_header_mb.svg" alt="logo" />
+              </picture>
+            </a>
+          </div>
 
-                <div class="menu">
-                    <ul>
-                        <li>最新商品</li>
-                        <li>生活日用</li>
-                        <li>療癒舒壓</li>
-                        <li>安全防護</li>
-                        <li><a href="../sale.html">優惠專區</a></li>
-                    </ul>
-                </div>
-                <div class="icon-shop">
-                    <div class="normal-hover"><a href="../login.html"><img src="../img/icon_header_member.svg"
-                                alt="會員icon" /></a></div>
-                    <div class="normal-hover"><a href="../login.html"><img src="../img/icon_header_cart.svg"
-                                alt="購物車icon" /></a>
-                        <div class="number">0</div>
-                    </div>
-                </div>
+          <div class="menu">
+            <ul>
+              <li>最新商品</li>
+              <li>生活日用</li>
+              <li>療癒舒壓</li>
+              <li>安全防護</li>
+              <li><a href="../sale.html">優惠專區</a></li>
+            </ul>
+          </div>
+          <div class="icon-shop">
+            <div class="normal-hover">
+              <a href="../login.html"
+                ><img src="../img/icon_header_member.svg" alt="會員icon"
+              /></a>
             </div>
-        </nav>
-        <div class="top normal-hover"><a href="#productInfo"><img src="../img/icon_home_top.svg" alt="top"></a></div>
+            <div class="normal-hover">
+              <a href="../login.html"
+                ><img src="../img/icon_header_cart.svg" alt="購物車icon"
+              /></a>
+              <div class="number">0</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="top normal-hover">
+        <a href="#productInfo"
+          ><img src="../img/icon_home_top.svg" alt="top"
+        /></a>
+      </div>
     </header>
 
     <article id="productInfo">
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <img src="../img/img_products_poster@2x.webp" alt="海報" />
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <img src="../img/img_products_poster@2x.webp" alt="海報" />
+          </div>
 
-                <div class="info-box column">
-                    <div class="mainInfo">
-                        <h1 class="title">無窗族之窗外有藍天海報(台北夜景晚安款)</h1>
-                        <span class="price-container-big">NT$120 </span><span class="sale sale-big">NT$99</span>
-                        <p class="product-description">
-                            無窗勝有窗乃台北租屋學最高境界，想像力就是你的超能力！特別設計給無窗族的海報，不僅打開小坪數的視野，你還可以隨時依照心情更換不同的風景。
-                        </p>
-                    </div>
-                    <div class="counter-buttonCart-box">
-                        <label>數量</label>
-                        <div class="counter">
-                            <input type="button" value="-" id="minus" onclick="minus()">
-                            <input type="text" value="1" id="count">
-                            <input type="button" value="+" id="plus" onclick="plus()">
-                        </div>
-                        <button class="button normal-hover">Add to Cart</button>
-                    </div>
-                </div>
+          <div class="info-box column">
+            <div class="mainInfo">
+              <h1 class="title">無窗族之窗外有藍天海報(台北夜景晚安款)</h1>
+              <span class="price-container-big">NT$120 </span
+              ><span class="sale sale-big">NT$99</span>
+              <p class="product-description">
+                無窗勝有窗乃台北租屋學最高境界，想像力就是你的超能力！特別設計給無窗族的海報，不僅打開小坪數的視野，你還可以隨時依照心情更換不同的風景。
+              </p>
             </div>
+            <div class="counter-buttonCart-box">
+              <label>數量</label>
+              <div class="counter">
+                <input type="button" value="-" id="minus" onclick="minus()" />
+                <input type="text" value="1" id="count" />
+                <input type="button" value="+" id="plus" onclick="plus()" />
+              </div>
+              <button class="button normal-hover">Add to Cart</button>
+            </div>
+          </div>
         </div>
+      </div>
     </article>
 
     <section>
-        <div class="container">
-            <div class="graphic-novel">
-                <img src="../img/img_products_poster_panel_1.webp" alt="Good morning" />
-            </div>
-            <div class="graphic-novel">
-                <img src="../img/img_products_poster_panel_2.webp" alt="Good evening" />
-            </div>
-            <div class="graphic-novel">
-                <img src="../img/img_products_poster_panel_3.webp" alt="changing your window" />
-            </div>
-            <div class="graphic-novel">
-                <img src="../img/img_products_poster_panel_4.webp" alt="Good night" />
-            </div>
+      <div class="container">
+        <div class="graphic-novel">
+          <img
+            src="../img/img_products_poster_panel_1.webp"
+            alt="Good morning"
+          />
         </div>
-
+        <div class="graphic-novel">
+          <img
+            src="../img/img_products_poster_panel_2.webp"
+            alt="Good evening"
+          />
+        </div>
+        <div class="graphic-novel">
+          <img
+            src="../img/img_products_poster_panel_3.webp"
+            alt="changing your window"
+          />
+        </div>
+        <div class="graphic-novel">
+          <img src="../img/img_products_poster_panel_4.webp" alt="Good night" />
+        </div>
+      </div>
     </section>
 
     <section id="needProduct">
-        <div class="container">
-            <p class="border-line">猜你也會需要…</p>
+      <div class="container">
+        <p class="border-line">猜你也會需要…</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="product-box column">
+            <a href="./smokeDetector.html">
+              <div class="two-image">
+                <div class="product-cover">
+                  <img
+                    src="../img/img_products_smokeDetector.webp"
+                    alt="火災警報器"
+                  />
+                </div>
+                <div class="product-hover">
+                  <img
+                    src="../img/img_products_smokeDetector_hover.webp"
+                    alt="火災警報器"
+                  />
+                </div>
+              </div>
+              <h4 class="chapter">我們與火的距離之住宅用火災警報器</h4>
+              <div class="price-container">
+                <span class="price-line">NT$99 </span
+                ><span class="sale">NT$87</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="product-box column">
+            <a href="./lock.html">
+              <div class="two-image">
+                <div class="product-cover">
+                  <img src="../img/img_products_lock.webp" alt="鐵鍊鎖頭組" />
+                </div>
+                <div class="product-hover">
+                  <img
+                    src="../img/img_products_lock_hover.webp"
+                    alt="鐵鍊鎖頭組"
+                  />
+                </div>
+              </div>
+              <h4 class="chapter">防止惡房東偷進房間之鐵鍊鎖頭組</h4>
+              <div class="price-container">
+                <span class="price-line">NT$99 </span
+                ><span class="sale">NT$87</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="product-box column">
+            <a href="./clay.html">
+              <div class="two-image">
+                <div class="product-cover">
+                  <img src="../img/img_products_clay.webp" alt="補土" />
+                </div>
+                <div class="product-hover">
+                  <img src="../img/img_products_clay_hover.webp" alt="補土" />
+                </div>
+              </div>
+              <h4 class="chapter">自己的壁癌自己補補土</h4>
+              <div class="price-container">
+                <span class="price-line">NT$350 </span
+                ><span class="sale">NT$319</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="product-box column">
+            <a href="./insecticide.html">
+              <div class="two-image">
+                <div class="product-cover">
+                  <img
+                    src="../img/img_products_insecticide.webp"
+                    alt="殺蟲劑"
+                  />
+                </div>
+                <div class="product-hover">
+                  <img
+                    src="../img/img_products_insecticide_hover.webp"
+                    alt="殺蟲劑"
+                  />
+                </div>
+              </div>
+              <h4 class="chapter">避免生物多樣性之噴霧殺蟲劑</h4>
+              <div class="price-container">
+                <span class="price-line">NT$399 </span
+                ><span class="sale">NT$349</span>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="product-box column">
-                    <a href="./smokeDetector.html">
-                        <div class="two-image">
-                            <div class="product-cover">
-                                <img src="../img/img_products_smokeDetector.webp" alt="火災警報器" />
-                            </div>
-                            <div class="product-hover">
-                                <img src="../img/img_products_smokeDetector_hover.webp" alt="火災警報器" />
-                            </div>
-                        </div>
-                        <h4 class="chapter">我們與火的距離之住宅用火災警報器</h4>
-                        <div class="price-container">
-                            <span class="price-line">NT$99 </span><span class="sale">NT$87</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="product-box column">
-                    <a href="./lock.html">
-                        <div class="two-image">
-                            <div class="product-cover">
-                                <img src="../img/img_products_lock.webp" alt="鐵鍊鎖頭組" />
-                            </div>
-                            <div class="product-hover">
-                                <img src="../img/img_products_lock_hover.webp" alt="鐵鍊鎖頭組" />
-                            </div>
-                        </div>
-                        <h4 class="chapter">防止惡房東偷進房間之鐵鍊鎖頭組</h4>
-                        <div class="price-container">
-                            <span class="price-line">NT$99 </span><span class="sale">NT$87</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="product-box column">
-                    <a href="./clay.html">
-                        <div class="two-image">
-                            <div class="product-cover">
-                                <img src="../img/img_products_clay.webp" alt="補土" />
-                            </div>
-                            <div class="product-hover">
-                                <img src="../img/img_products_clay_hover.webp" alt="補土" />
-                            </div>
-                        </div>
-                        <h4 class="chapter">自己的壁癌自己補補土</h4>
-                        <div class="price-container">
-                            <span class="price-line">NT$350 </span><span class="sale">NT$319</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="product-box column">
-                    <a href="./insecticide.html">
-                        <div class="two-image">
-                            <div class="product-cover">
-                                <img src="../img/img_products_insecticide.webp" alt="殺蟲劑" />
-                            </div>
-                            <div class="product-hover">
-                                <img src="../img/img_products_insecticide_hover.webp" alt="殺蟲劑" />
-                            </div>
-                        </div>
-                        <h4 class="chapter">避免生物多樣性之噴霧殺蟲劑</h4>
-                        <div class="price-container">
-                            <span class="price-line">NT$399 </span><span class="sale">NT$349</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="icon-sns column">
-                    <div class="icon-sns-box">
-                        <div class="normal-hover">
-                            <a href="https://www.instagram.com/items_display_in_taipei/" target="_blank">
-                                <img src="../img/icon_footer_ig.svg" alt="instagram" />
-                            </a>
-                        </div>
-                        <div class="normal-hover">
-                            <img src="../img/icon_footer_fb.svg" alt="facebook" />
-                        </div>
-                        <div class="normal-hover">
-                            <img src="../img/icon_footer_line.svg" alt="line" />
-                        </div>
-                    </div>
-                    <div class="language-box">
-                        <div class="language">
-                            <div class="normal-hover">TW</div>
-                            <span>/</span>
-                            <div class="normal-hover">EN</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer-menu column">
-                    <div class="footer-menu-container">
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover"><a href="../about.html">品牌理念 </a></li>
-                                <li class="normal-hover"><a href="https://tsaiyuyu.cargo.site/" target="_blank">聯繫我們</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover">配送及退換貨</li>
-                                <li class="normal-hover">常見問題</li>
-                            </ul>
-                        </div>
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover">顧客服務</li>
-                                <li class="normal-hover">隱私權政策</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="language-box">
-                    <div class="language column">
-                        <div class="normal-hover">TW</div>
-                        <span>/</span>
-                        <div class="normal-hover">EN</div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="icon-sns column">
+            <div class="icon-sns-box">
+              <div class="normal-hover">
+                <a
+                  href="https://www.instagram.com/items_display_in_taipei/"
+                  target="_blank"
+                >
+                  <img src="../img/icon_footer_ig.svg" alt="instagram" />
+                </a>
+              </div>
+              <div class="normal-hover">
+                <img src="../img/icon_footer_fb.svg" alt="facebook" />
+              </div>
+              <div class="normal-hover">
+                <img src="../img/icon_footer_line.svg" alt="line" />
+              </div>
             </div>
+            <div class="language-box">
+              <div class="language">
+                <div class="normal-hover">TW</div>
+                <span>/</span>
+                <div class="normal-hover">EN</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-menu column">
+            <div class="footer-menu-container">
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">
+                    <a href="../about.html">品牌理念 </a>
+                  </li>
+                  <li class="normal-hover">
+                    <a href="https://tsaiyuyu.cargo.site/" target="_blank"
+                      >聯繫我們</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">配送及退換貨</li>
+                  <li class="normal-hover">常見問題</li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">顧客服務</li>
+                  <li class="normal-hover">隱私權政策</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="language-box">
+            <div class="language column">
+              <div class="normal-hover">TW</div>
+              <span>/</span>
+              <div class="normal-hover">EN</div>
+            </div>
+          </div>
         </div>
-        <div class="copyright">© 2022 台北室物 All Rights Reserved.</div>
+      </div>
+      <div class="copyright">© 2022 台北室物 All Rights Reserved.</div>
     </footer>
     <script type="text/javascript" src="../js/text.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0QER02CW4"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S0QER02CW4"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-S0QER02CW4');
+      gtag("config", "G-S0QER02CW4");
     </script>
-</body>
-
+  </body>
 </html>

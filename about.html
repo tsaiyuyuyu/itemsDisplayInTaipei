@@ -1,179 +1,224 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="台北室物是專為天龍國租屋族打造的家居品牌，提供物美價廉、極簡設計的各式租屋必備單品，在無窗雅房、頂樓加蓋、地下室、陽台、違建中創造出美好又安心的生活。">
-    <meta property="og:title" content="台北室物 - 天龍國租屋族的生活雜貨" />
+    <meta
+      name="description"
+      content="台北室物是專為租屋族打造的家居品牌，提供物美價廉、極簡設計的各式租屋必備單品，在無窗雅房、頂樓加蓋、地下室、陽台、違建中創造出美好又安心的生活。"
+    />
+    <meta property="og:title" content="台北室物 - 租屋族的生活雜貨" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="https://use.typekit.net/cyz5ker.css" />
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <!-- 思源黑體 -->
     <script>
-        (function (d) {
-            var config = {
-                kitId: 'poo0ujm',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
+      (function (d) {
+        var config = {
+            kitId: "poo0ujm",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
     </script>
     <title>台北室物</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="topnav container" id="myTopnav">
-                <div class="hamburger" onclick="myFunction()">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+      <nav>
+        <div class="topnav container" id="myTopnav">
+          <div class="hamburger" onclick="myFunction()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
 
-                <div class="logo">
-                    <a href="./index.html">
-                        <picture>
-                            <source media="(min-width: 480px)" srcset="./img/logo_header.svg" /><img
-                                src="./img/logo_header_mb.svg" alt="logo" />
-                        </picture>
-                    </a>
-                </div>
+          <div class="logo">
+            <a href="./index.html">
+              <picture>
+                <source
+                  media="(min-width: 480px)"
+                  srcset="./img/logo_header.svg"
+                />
+                <img src="./img/logo_header_mb.svg" alt="logo" />
+              </picture>
+            </a>
+          </div>
 
-                <div class="menu">
-                    <ul>
-                        <li>最新商品</li>
-                        <li>生活日用</li>
-                        <li>療癒舒壓</li>
-                        <li>安全防護</li>
-                        <li><a href="./sale.html">優惠專區</a></li>
-                    </ul>
-                </div>
-                <div class="icon-shop">
-                    <div class="normal-hover"><a href="./login.html"><img src="./img/icon_header_member.svg"
-                                alt="會員icon" /></a></div>
-                    <div class="normal-hover"><a href="./login.html"><img src="./img/icon_header_cart.svg"
-                                alt="購物車icon" /></a>
-                        <div class="number">0</div>
-                    </div>
-
-                </div>
+          <div class="menu">
+            <ul>
+              <li>最新商品</li>
+              <li>生活日用</li>
+              <li>療癒舒壓</li>
+              <li>安全防護</li>
+              <li><a href="./sale.html">優惠專區</a></li>
+            </ul>
+          </div>
+          <div class="icon-shop">
+            <div class="normal-hover">
+              <a href="./login.html"
+                ><img src="./img/icon_header_member.svg" alt="會員icon"
+              /></a>
             </div>
-        </nav>
+            <div class="normal-hover">
+              <a href="./login.html"
+                ><img src="./img/icon_header_cart.svg" alt="購物車icon"
+              /></a>
+              <div class="number">0</div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section id="about">
-        <div class="container">
-            <div class="row ">
-                <h1 class="brandmind">台北室物是專為天龍國租屋族打造的家居品牌。
-                    <span class="brandmind-no-pre"><span class="brandmind-disappear">在高房租、萬物皆漲的年代，</span>
-提供物美價廉、極簡設計的各式租屋必備單品，
-無論是無窗雅房、頂樓加蓋、地下室、陽台、違建，
-房客都能輕鬆創造出美好又安心的生活。</span>
-                </h1>
-            </div>
-            <p class="design-concept">Design Concept</p>
-            <div class="row">
-                <div class="column">
-                    <h1 class="title">
-                        八個物件，八篇故事
-                        <br>租在台北的荒謬日常
-                    </h1>
-                    <p class="credt">
-                        設計&插畫: Tsaiyuyu<br>
-                        英文協力: Dule, Dianne<br>
-                        特別感謝: Ekman, Wesley Lin<br>
-                        Release: 2022.
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="about-content">
-                        「台北室物」是結合插畫、漫畫與網頁的實驗性作品，虛構的品牌，偽裝的電商，以八個商品物件來描述租屋者在台北的處境。
-                        <br><br>身處在高房價時代的低薪年輕人，別提買房了，連租間舒適的房間都租不起，白天面對高壓的工作環境，夜晚睡在沒有窗戶的小小空間，與陌生人共用衛浴，唯透過不斷地購買物質來營造小確幸，報復性的消費使人們繼續勞動，日復一日的困在地下經濟之中。
-                        <br><br>黑色幽默、諷刺是作品發想的關鍵詞，刻意模仿線上購物網站常見的基本架構，大量暗調的藍作為背景，搭配夢幻的紫、亮麗的洋紅，既憂鬱又魔幻，似陌生但日常。點進去商品頁面之後，會先看到第二人稱的文字述說在台北租屋遭遇的處境，下方的四格漫畫並非是要呈現該物品的使用介紹，而是以悲喜雜揉的角度去描繪生活的荒謬。
-                    </p>
-
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <h1 class="brandmind">
+            台北室物是專為租屋族打造的家居品牌。
+            <span class="brandmind-no-pre"
+              ><span class="brandmind-disappear"
+                >在高房租、萬物皆漲的年代，</span
+              >
+              提供物美價廉、極簡設計的各式租屋必備單品，
+              無論是無窗雅房、頂樓加蓋、地下室、陽台、違建，
+              房客都能輕鬆創造出美好又安心的生活。</span
+            >
+          </h1>
         </div>
+        <p class="design-concept">Design Concept</p>
+        <div class="row">
+          <div class="column">
+            <h1 class="title">
+              八個物件，八篇故事
+              <br />租在台北的荒謬日常
+            </h1>
+            <p class="credt">
+              設計&插畫: Tsaiyuyu<br />
+              英文協力: Dule, Dianne<br />
+              特別感謝: Ekman, Wesley Lin<br />
+              Release: 2022.
+            </p>
+          </div>
+          <div class="column">
+            <p class="about-content">
+              「台北室物」是結合插畫、漫畫與網頁的實驗性作品，虛構的品牌，偽裝的電商，以八個商品物件來描述租屋者在台北的處境。
+              <br /><br />身處在高房價時代的低薪年輕人，別提買房了，連租間舒適的房間都租不起，白天面對高壓的工作環境，夜晚睡在沒有窗戶的小小空間，與陌生人共用衛浴，唯透過不斷地購買物質來營造小確幸，報復性的消費使人們繼續勞動，日復一日的困在地下經濟之中。
+              <br /><br />黑色幽默、諷刺是作品發想的關鍵詞，刻意模仿線上購物網站常見的基本架構，大量暗調的藍作為背景，搭配夢幻的紫、亮麗的洋紅，既憂鬱又魔幻，似陌生但日常。點進去商品頁面之後，會先看到第二人稱的文字述說在台北租屋遭遇的處境，下方的四格漫畫並非是要呈現該物品的使用介紹，而是以悲喜雜揉的角度去描繪生活的荒謬。
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="icon-sns column">
-                    <div class="icon-sns-box">
-                        <div class="normal-hover">
-                            <a href="https://www.instagram.com/items_display_in_taipei/" target="_blank">
-                                <img src="./img/icon_footer_ig.svg" alt="instagram" />
-                            </a>
-                        </div>
-                        <div class="normal-hover">
-                            <img src="./img/icon_footer_fb.svg" alt="facebook" />
-                        </div>
-                        <div class="normal-hover">
-                            <img src="./img/icon_footer_line.svg" alt="line" />
-                        </div>
-                    </div>
-                    <div class="language-box">
-                        <div class="language">
-                            <div class="normal-hover">TW</div>
-                            <span>/</span>
-                            <div class="normal-hover">EN</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer-menu column">
-                    <div class="footer-menu-container">
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover"><a href="./about.html">品牌理念 </a></li>
-                                <li class="normal-hover"><a href="https://tsaiyuyu.cargo.site/" target="_blank">聯繫我們</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover">配送及退換貨</li>
-                                <li class="normal-hover">常見問題</li>
-                            </ul>
-                        </div>
-                        <div class="row">
-                            <ul class="column">
-                                <li class="normal-hover">顧客服務</li>
-                                <li class="normal-hover">隱私權政策</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="language-box">
-                    <div class="language column">
-                        <div class="normal-hover">TW</div>
-                        <span>/</span>
-                        <div class="normal-hover">EN</div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="icon-sns column">
+            <div class="icon-sns-box">
+              <div class="normal-hover">
+                <a
+                  href="https://www.instagram.com/items_display_in_taipei/"
+                  target="_blank"
+                >
+                  <img src="./img/icon_footer_ig.svg" alt="instagram" />
+                </a>
+              </div>
+              <div class="normal-hover">
+                <img src="./img/icon_footer_fb.svg" alt="facebook" />
+              </div>
+              <div class="normal-hover">
+                <img src="./img/icon_footer_line.svg" alt="line" />
+              </div>
             </div>
+            <div class="language-box">
+              <div class="language">
+                <div class="normal-hover">TW</div>
+                <span>/</span>
+                <div class="normal-hover">EN</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-menu column">
+            <div class="footer-menu-container">
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">
+                    <a href="./about.html">品牌理念 </a>
+                  </li>
+                  <li class="normal-hover">
+                    <a href="https://tsaiyuyu.cargo.site/" target="_blank"
+                      >聯繫我們</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">配送及退換貨</li>
+                  <li class="normal-hover">常見問題</li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="column">
+                  <li class="normal-hover">顧客服務</li>
+                  <li class="normal-hover">隱私權政策</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="language-box">
+            <div class="language column">
+              <div class="normal-hover">TW</div>
+              <span>/</span>
+              <div class="normal-hover">EN</div>
+            </div>
+          </div>
         </div>
-        <div class="copyright">© 2022 台北室物 All Rights Reserved.</div>
+      </div>
+      <div class="copyright">© 2022 台北室物 All Rights Reserved.</div>
     </footer>
 
     <script type="text/javascript" src="./js/text.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0QER02CW4"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S0QER02CW4"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-S0QER02CW4');
+      gtag("config", "G-S0QER02CW4");
     </script>
-
-</body>
-
+  </body>
 </html>
